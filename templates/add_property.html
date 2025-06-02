@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{% block title %}Add Property | PrimeProperties{% endblock %}
+
+{% block content %}
+<section class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card shadow">
+          <div class="card-body p-5">
+            <h2 class="text-center mb-4">Add New Property</h2>
+            <form method="POST" action="{{ url_for('add_property') }}" enctype="multipart/form-data">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="title" class="form-label">Property Title</label>
+                  <input type="text" class="form-control" id="title" name="title" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="listing_type" class="form-label">Listing Type</label>
+                  <select class="form-select" id="listing_type" name="listing_type" required>
+                    <option value="sale">For Sale</option>
+                    <option value="rent">For Rent</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="location" class="form-label">Location</label>
+                  <select class="form-select" id="location" name="location" required>
+                    <option value="">Select Location</option>
+                    <option>Adyar</option>
+                    <option>Anna Nagar</option>
+                    <option>Ashok Nagar</option>
+                    <option>Besant Nagar</option>
+                    <option>Chromepet</option>
+                    <option>Egmore</option>
+                    <option>Guindy</option>
+                    <option>Kodambakkam</option>
+                    <option>Medavakkam</option>
+                    <option>Mylapore</option>
+                    <option>Nungambakkam</option>
+                    <option>Pallavaram</option>
+                    <option>Perambur</option>
+                    <option>Porur</option>
+                    <option>Sholinganallur</option>
+                    <option>T. Nagar</option>
+                    <option>Tambaram</option>
+                    <option>Thiruvanmiyur</option>
+                    <option>Vadapalani</option>
+                    <option>Velachery</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="property_type" class="form-label">Property Type</label>
+                  <select class="form-select" id="property_type" name="property_type" required>
+                    <option value="">Select Type</option>
+                    <option>House</option>
+                    <option>Apartment</option>
+                    <option>Villa</option>
+                  </select>
+                </div>
+              </div>             
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <label for="sq_ft" class="form-label">Area (sq.ft)</label>
+                  <input type="number" class="form-control" id="sq_ft" name="sq_ft" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="bedrooms" class="form-label">Bedrooms</label>
+                  <input type="number" class="form-control" id="bedrooms" name="bedrooms" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="bathrooms" class="form-label">Bathrooms</label>
+                  <input type="number" class="form-control" id="bathrooms" name="bathrooms" required>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <label for="year_built" class="form-label">Year Built</label>
+                  <input type="number" class="form-control" id="year_built" name="year_built" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="parking_spaces" class="form-label">Parking Spaces</label>
+                  <input type="number" class="form-control" id="parking_spaces" name="parking_spaces" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="condition" class="form-label">Condition</label>
+                  <select class="form-select" id="condition" name="condition" required>
+                    <option value="">Select Condition</option>
+                    <option>New</option>
+                    <option>Old</option>
+                    <option>Renovated</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div class="mb-4">
+                <label for="image" class="form-label">Property Image</label>
+                <input type="file" class="form-control" id="image" name="image" accept="image/*">
+                <small class="text-muted">Upload a high-quality image of your property</small>
+              </div>
+              
+              <button type="submit" class="btn btn-primary w-100">Add Property</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}My Messages | PrimeProperties{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2><i class="fas fa-envelope me-2"></i>My Inquiries</h2>
+                <a href="{{ url_for('dashboard_buyer') }}" class="btn btn-outline-primary">
+                    <i class="fas fa-arrow-left me-2"></i>Back to Dashboard
+                </a>
+            </div>
+
+            {% if messages %}
+                <div class="row">
+                    {% for message in messages %}
+                        <div class="col-md-6 mb-4">
+                            <div class="card shadow-sm h-100">
+                                <div class="card-header bg-white">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5 class="mb-0">{{ message.property_title }}</h5>
+                                        <span class="badge {% if message.reply %}bg-success{% else %}bg-warning{% endif %}">
+                                            {{ 'Replied' if message.reply else 'Pending' }}
+                                        </span>
+                                    </div>
+                                    <small class="text-muted">
+                                        <i class="fas fa-map-marker-alt me-1"></i>{{ message.property_location }}
+                                    </small>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="https://ui-avatars.com/api/?name={{ message.seller_name }}&background=random" 
+                                             class="rounded-circle me-3" width="48" height="48" alt="{{ message.seller_name }}">
+                                        <div>
+                                            <h6 class="mb-0">Seller: {{ message.seller_name }}</h6>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="message-content mb-3">
+                                        <small class="text-muted d-block mb-1">Sent on {{ message.created_at }}</small>
+                                        <p class="mb-0">{{ message.message }}</p>
+                                    </div>
+
+                                    {% if message.reply %}
+                                        <div class="reply-content p-3 bg-light rounded">
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <strong>Seller's Reply:</strong>
+                                                <small class="text-muted">{{ message.reply_time }}</small>
+                                            </div>
+                                            <p class="mb-0">{{ message.reply }}</p>
+                                        </div>
+                                    {% else %}
+                                        <div class="alert alert-info mb-0">
+                                            <i class="fas fa-info-circle me-2"></i>Waiting for seller's reply...
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="text-center py-5">
+                    <i class="fas fa-inbox fa-4x text-muted mb-3"></i>
+                    <h4>No Messages Yet</h4>
+                    <p class="text-muted">You haven't sent any property inquiries yet.</p>
+                    <a href="{{ url_for('properties') }}" class="btn btn-primary mt-3">
+                        <i class="fas fa-search me-2"></i>Browse Properties
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %} 

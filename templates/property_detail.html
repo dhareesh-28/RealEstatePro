@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+
+{% block title %}{{ property[1] }} | PrimeProperties{% endblock %}
+
+{% block content %}
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="card shadow mb-4">
+          <div id="propertyCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{{ url_for('static', filename=property[13]) }}" class="d-block w-100" alt="Property image" style="height: 500px; object-fit: cover;">
+              </div>
+              <!-- Additional images can be added here -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#propertyCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#propertyCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        
+        <div class="card shadow mb-4">
+          <div class="card-body">
+            <h3 class="mb-3">{{ property[1] }}</h3>
+            <p class="text-muted mb-4"><i class="fas fa-map-marker-alt me-2"></i>{{ property[3] }}, Chennai</p>
+            
+            <div class="d-flex flex-wrap mb-4">
+              <div class="me-4 mb-3">
+                <h4 class="text-primary">₹{{ "{:,.2f}".format(property[11]) }}{% if property[12] == 'rent' %}/mo{% endif %}</h4>
+                <small class="text-muted">Predicted Price</small>
+              </div>
+              <div class="me-4 mb-3">
+                <h5>{{ property[6] }}</h5>
+                <small class="text-muted">Bedrooms</small>
+              </div>
+              <div class="me-4 mb-3">
+                <h5>{{ property[7] }}</h5>
+                <small class="text-muted">Bathrooms</small>
+              </div>
+              <div class="me-4 mb-3">
+                <h5>{{ property[5] }} sq.ft</h5>
+                <small class="text-muted">Area</small>
+              </div>
+              <div class="me-4 mb-3">
+                <h5>{{ property[8] }}</h5>
+                <small class="text-muted">Year Built</small>
+              </div>
+            </div>
+            
+            <h5 class="mt-4 mb-3">Description</h5>
+            <p>{{ property[2] }}</p>
+            
+            <div class="row mt-4">
+              <div class="col-md-6 mb-3">
+                <h5>Property Details</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><strong>Property Type:</strong> {{ property[4] }}</li>
+                  <li class="mb-2"><strong>Condition:</strong> {{ property[10] }}</li>
+                  <li class="mb-2"><strong>Parking Spaces:</strong> {{ property[9] }}</li>
+                  <li class="mb-2"><strong>Listing Type:</strong> For {{ 'Rent' if property[12] == 'rent' else 'Sale' }}</li>
+                </ul>
+              </div>
+              <div class="col-md-6 mb-3">
+                <h5>Location Features</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Near Public Transport</li>
+                  <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Schools Nearby</li>
+                  <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Shopping Centers</li>
+                  <li class="mb-2"><i class="fas fa-check text-success me-2"></i>24/7 Security</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4">
+        {% if not g.user or g.user[0] != property[14] %}
+        <div class="card shadow sticky-top" style="top: 100px;">
+          <div class="card-body">
+            <h4 class="mb-4">Contact Seller</h4>
+            <div class="d-flex align-items-center mb-4">
+              <img src="https://ui-avatars.com/api/?name={{ property.seller_name }}&background=random" class="rounded-circle me-3" width="60" height="60" alt="Seller">
+              <div>
+                <h5 class="mb-0">{{ property.seller_name }}</h5>
+                <small class="text-muted">Property Owner</small>
+              </div>
+            </div>
+            
+            {% if g.user %}
+              <div class="seller-contact-info mb-4">
+                {% if g.user[5] == 'buyer' %}
+                  <p class="mb-2"><i class="fas fa-envelope me-2"></i>{{ property.seller_email }}</p>
+                  <p class="mb-0"><i class="fas fa-phone me-2"></i>{{ property.seller_phone }}</p>
+                {% endif %}
+              </div>
+              
+              <form action="{{ url_for('send_message', property_id=property[0]) }}" method="POST">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" class="form-control" id="name" name="name" value="{{ g.user[1] }}" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" value="{{ g.user[3] }}" required>
+                </div>
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input type="tel" class="form-control" id="phone" name="phone" value="{{ g.user[4] }}" required>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="3" required>I'm interested in this property at {{ property[3] }}. Please contact me with more details.</textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+              </form>
+            {% else %}
+              <div class="alert alert-info">
+                <i class="fas fa-lock me-2"></i>Please login to contact the seller.
+              </div>
+              <a href="{{ url_for('login') }}" class="btn btn-primary w-100">
+                <i class="fas fa-sign-in-alt me-2"></i>Login to Contact Seller
+              </a>
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

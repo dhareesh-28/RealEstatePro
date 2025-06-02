@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block title %}Messages | PrimeProperties{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2><i class="fas fa-envelope me-2"></i>My Messages</h2>
+                {% if g.user[5] == 'buyer' %}
+                    <a href="{{ url_for('dashboard_buyer') }}" class="btn btn-outline-primary">
+                        <i class="fas fa-arrow-left me-2"></i>Back to Dashboard
+                    </a>
+                {% else %}
+                    <a href="{{ url_for('dashboard_seller') }}" class="btn btn-outline-primary">
+                        <i class="fas fa-arrow-left me-2"></i>Back to Dashboard
+                    </a>
+                {% endif %}
+            </div>
+
+            {% if conversations %}
+                <div class="row">
+                    {% for conv in conversations %}
+                        <div class="col-md-6 mb-4">
+                            <a href="{{ url_for('view_conversation', conversation_id=conv.id) }}" class="text-decoration-none">
+                                <div class="card shadow-sm h-100 {% if conv.unread_count > 0 %}border-primary{% endif %}">
+                                    <div class="card-header bg-white">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h5 class="mb-0 text-dark">{{ conv.property_title }}</h5>
+                                            {% if conv.unread_count > 0 %}
+                                                <span class="badge bg-primary">{{ conv.unread_count }} new</span>
+                                            {% endif %}
+                                        </div>
+                                        <small class="text-muted">
+                                            <i class="fas fa-map-marker-alt me-1"></i>{{ conv.property_location }}
+                                        </small>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <img src="https://ui-avatars.com/api/?name={{ conv.other_party_name }}&background=random" 
+                                                 class="rounded-circle me-3" width="48" height="48" alt="{{ conv.other_party_name }}">
+                                            <div>
+                                                <h6 class="mb-0 text-dark">
+                                                    {% if g.user[5] == 'buyer' %}
+                                                        Seller: {{ conv.other_party_name }}
+                                                    {% else %}
+                                                        Buyer: {{ conv.other_party_name }}
+                                                    {% endif %}
+                                                </h6>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="message-preview">
+                                            <small class="text-muted d-block mb-1">Last message: {{ conv.last_message_time }}</small>
+                                            <p class="mb-0 text-dark text-truncate">{{ conv.last_message }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="text-center py-5">
+                    <i class="fas fa-inbox fa-4x text-muted mb-3"></i>
+                    <h4>No Messages Yet</h4>
+                    <p class="text-muted">
+                        {% if g.user[5] == 'buyer' %}
+                            You haven't started any conversations yet.
+                        {% else %}
+                            You haven't received any property inquiries yet.
+                        {% endif %}
+                    </p>
+                    {% if g.user[5] == 'buyer' %}
+                        <a href="{{ url_for('properties') }}" class="btn btn-primary mt-3">
+                            <i class="fas fa-search me-2"></i>Browse Properties
+                        </a>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %} 

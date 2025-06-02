@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}Conversation | PrimeProperties{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div>
+                    <a href="{{ url_for('messages') }}" class="btn btn-outline-primary mb-2">
+                        <i class="fas fa-arrow-left me-2"></i>Back to Messages
+                    </a>
+                    <h2 class="mb-0">{{ conversation.property_title }}</h2>
+                    <small class="text-muted">
+                        <i class="fas fa-map-marker-alt me-1"></i>{{ conversation.property_location }}
+                    </small>
+                </div>
+                <div class="text-end">
+                    <h5 class="mb-1">
+                        {% if g.user[5] == 'buyer' %}
+                            Seller: {{ conversation.other_party_name }}
+                        {% else %}
+                            Buyer: {{ conversation.other_party_name }}
+                        {% endif %}
+                    </h5>
+                </div>
+            </div>
+
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <div class="messages-container" style="max-height: 500px; overflow-y: auto;">
+                        {% for message in messages %}
+                            <div class="message mb-4 {% if message.sender_id == g.user[0] %}text-end{% endif %}">
+                                <div class="d-inline-block {% if message.sender_id == g.user[0] %}bg-primary text-white{% else %}bg-light{% endif %} rounded p-3" style="max-width: 75%;">
+                                    <div class="d-flex align-items-center {% if message.sender_id == g.user[0] %}justify-content-end{% endif %} mb-1">
+                                        <img src="https://ui-avatars.com/api/?name={{ message.sender_name }}&background=random" 
+                                             class="rounded-circle me-2" width="32" height="32" alt="{{ message.sender_name }}">
+                                        <div>
+                                            <small class="{% if message.sender_id == g.user[0] %}text-white-50{% else %}text-muted{% endif %}">
+                                                {{ message.sender_name }}
+                                                {% if message.sender_type == 'seller' %}
+                                                    <i class="fas fa-check-circle ms-1" title="Seller"></i>
+                                                {% endif %}
+                                            </small>
+                                        </div>
+                                    </div>
+                                    <p class="mb-1 {% if message.sender_id == g.user[0] %}text-white{% endif %}">{{ message.message }}</p>
+                                    <small class="{% if message.sender_id == g.user[0] %}text-white-50{% else %}text-muted{% endif %}">
+                                        {{ message.created_at }}
+                                    </small>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+
+                    <form action="{{ url_for('send_conversation_message', conversation_id=conversation.id) }}" method="POST" class="mt-4">
+                        <div class="input-group">
+                            <textarea class="form-control" name="message" rows="2" placeholder="Type your message..." required></textarea>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% block scripts %}
+<script>
+    // Scroll to bottom of messages container
+    document.addEventListener('DOMContentLoaded', function() {
+        const container = document.querySelector('.messages-container');
+        container.scrollTop = container.scrollHeight;
+    });
+</script>
+{% endblock %}
+{% endblock %} 

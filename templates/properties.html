@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+
+{% block title %}
+  {% if listing_type == 'sale' %}Properties for Sale{% elif listing_type == 'rent' %}Properties for Rent{% else %}All Properties{% endif %} | PrimeProperties
+{% endblock %}
+
+{% block content %}
+<section class="py-5">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12">
+        <h2 class="section-title">
+          {% if listing_type == 'sale' %}
+            Properties for Sale
+          {% elif listing_type == 'rent' %}
+            Properties for Rent
+          {% else %}
+            All Properties
+          {% endif %}
+        </h2>
+        <p>Browse our selection of premium properties</p>
+      </div>
+    </div>
+    
+    <div class="row mb-4">
+      <div class="col-12">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <form method="GET" action="{{ url_for('properties') }}" class="row g-3">
+              <div class="col-md-3">
+                <select class="form-select" name="type">
+                  <option value="">All Types</option>
+                  <option value="sale" {% if listing_type == 'sale' %}selected{% endif %}>For Sale</option>
+                  <option value="rent" {% if listing_type == 'rent' %}selected{% endif %}>For Rent</option>
+                </select>
+              </div>
+              <div class="col-md-3">
+                <select class="form-select" name="location">
+                  <option value="">All Locations</option>
+                  {% for loc in ['Adyar','Anna Nagar','Ashok Nagar','Besant Nagar','Chromepet','Egmore','Guindy','Kodambakkam','Medavakkam','Mylapore','Nungambakkam','Pallavaram','Perambur','Porur','Sholinganallur','T. Nagar','Tambaram','Thiruvanmiyur','Vadapalani','Velachery'] %}
+                  <option value="{{ loc }}" {% if location == loc %}selected{% endif %}>{{ loc }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+              <div class="col-md-2">
+                <select class="form-select" name="property_type">
+                  <option value="">All Types</option>
+                  {% for ptype in ['House', 'Apartment', 'Villa'] %}
+                  <option value="{{ ptype }}" {% if property_type == ptype %}selected{% endif %}>{{ ptype }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+              <div class="col-md-2">
+                <select class="form-select" name="bedrooms">
+                  <option value="">All Beds</option>
+                  <option value="1" {% if bedrooms == '1' %}selected{% endif %}>1 Bed</option>
+                  <option value="2" {% if bedrooms == '2' %}selected{% endif %}>2 Beds</option>
+                  <option value="3+" {% if bedrooms == '3+' %}selected{% endif %}>3+ Beds</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <select class="form-select" name="price_range">
+                  <option value="">All Prices</option>
+                  {% if listing_type == 'rent' %}
+                    <option value="Under ₹20K" {% if price_range == 'Under ₹20K' %}selected{% endif %}>Under ₹20K</option>
+                    <option value="₹20K - ₹50K" {% if price_range == '₹20K - ₹50K' %}selected{% endif %}>₹20K - ₹50K</option>
+                    <option value="₹50K - ₹1L" {% if price_range == '₹50K - ₹1L' %}selected{% endif %}>₹50K - ₹1L</option>
+                    <option value="Above ₹1L" {% if price_range == 'Above ₹1L' %}selected{% endif %}>Above ₹1L</option>
+                  {% else %}
+                    <option value="Under ₹50L" {% if price_range == 'Under ₹50L' %}selected{% endif %}>Under ₹50L</option>
+                    <option value="₹50L - ₹1Cr" {% if price_range == '₹50L - ₹1Cr' %}selected{% endif %}>₹50L - ₹1Cr</option>
+                    <option value="₹1Cr - ₹2Cr" {% if price_range == '₹1Cr - ₹2Cr' %}selected{% endif %}>₹1Cr - ₹2Cr</option>
+                    <option value="Above ₹2Cr" {% if price_range == 'Above ₹2Cr' %}selected{% endif %}>Above ₹2Cr</option>
+                  {% endif %}
+                </select>
+              </div>
+              <div class="col-12 text-end">
+                <button type="submit" class="btn btn-primary">Search Properties</button>
+                <a href="{{ url_for('properties') }}" class="btn btn-outline-secondary ms-2">Clear Filters</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    {% if properties %}
+    <div class="row">
+      {% for property in properties %}
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="property-card h-100">
+          <img src="{{ url_for('static', filename=property[13]) }}" class="img-fluid property-img" alt="{{ property[1] }}">
+          <span class="property-badge">For {{ 'Rent' if property[12] == 'rent' else 'Sale' }}</span>
+          <div class="p-4">
+            <h5>{{ property[1] }}</h5>
+            <p class="text-muted mb-3">{{ property[3] }}, Chennai</p>
+            <p class="property-price">₹{{ "{:,.2f}".format(property[11]) }}{% if property[12] == 'rent' %}/mo{% endif %}</p>
+            <div class="property-features mt-3">
+              <span><i class="fas fa-bed"></i> {{ property[6] }} Beds</span>
+              <span><i class="fas fa-bath"></i> {{ property[7] }} Baths</span>
+              <span><i class="fas fa-vector-square"></i> {{ property[5] }} sq.ft</span>
+            </div>
+            {% if g.user %}
+              <a href="{{ url_for('property_detail', property_id=property[0]) }}" class="btn btn-outline-primary w-100 mt-3">View Details</a>
+            {% else %}
+              <a href="{{ url_for('login') }}" class="btn btn-outline-primary w-100 mt-3">
+                <i class="fas fa-lock me-2"></i>Login to View Details
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="text-center py-5">
+      <img src="https://cdn-icons-png.flaticon.com/512/4076/4076478.png" alt="No properties" style="width: 150px; opacity: 0.7;" class="mb-4">
+      <h4>No properties found</h4>
+      <p class="text-muted">Try adjusting your search criteria</p>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,282 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="hero-title">Find Your Perfect Dream Home</h1>
+          <p class="hero-subtitle">Discover your ideal property from our premium selection of homes across Chennai</p>
+          <a href="{{ url_for('properties') }}" class="btn btn-primary btn-lg me-2">Browse Properties</a>
+          {% if g.user %}
+            <a href="{{ url_for('price_prediction') }}" class="btn btn-outline-light btn-lg">Price Prediction</a>
+          {% else %}
+            <a href="{{ url_for('login') }}" class="btn btn-outline-light btn-lg">
+              <i class="fas fa-lock me-2"></i>Login for Price Prediction
+            </a>
+          {% endif %}
+        </div>
+        <div class="col-lg-6 mt-5 mt-lg-0">
+          <div class="search-box">
+            <ul class="nav nav-pills search-tabs mb-4" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-buy-tab" data-bs-toggle="pill" data-bs-target="#pills-buy" type="button" role="tab">Buy</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-rent-tab" data-bs-toggle="pill" data-bs-target="#pills-rent" type="button" role="tab">Rent</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-buy" role="tabpanel">
+                <form action="{{ url_for('properties') }}" method="GET">
+                  <input type="hidden" name="type" value="sale">
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <select class="form-select" id="location" name="location" required>
+                        <option value="">Select Location</option>
+                        <option>Adyar</option>
+                        <option>Anna Nagar</option>
+                        <option>Ashok Nagar</option>
+                        <option>Besant Nagar</option>
+                        <option>Chromepet</option>
+                        <option>Egmore</option>
+                        <option>Guindy</option>
+                        <option>Kodambakkam</option>
+                        <option>Medavakkam</option>
+                        <option>Mylapore</option>
+                        <option>Nungambakkam</option>
+                        <option>Pallavaram</option>
+                        <option>Perambur</option>
+                        <option>Porur</option>
+                        <option>Sholinganallur</option>
+                        <option>T. Nagar</option>
+                        <option>Tambaram</option>
+                        <option>Thiruvanmiyur</option>
+                        <option>Vadapalani</option>
+                        <option>Velachery</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <select class="form-select" name="property_type">
+                        <option value="">Property Type</option>
+                        <option>House</option>
+                        <option>Apartment</option>
+                        <option>Villa</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <select class="form-select" name="bedrooms">
+                        <option value="">Bedrooms</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3+</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <select class="form-select" name="price_range">
+                        <option value="">Price Range</option>
+                        <option>Under ₹50L</option>
+                        <option>₹50L - ₹1Cr</option>
+                        <option>₹1Cr - ₹2Cr</option>
+                        <option>Above ₹2Cr</option>
+                      </select>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary w-100">Search Properties</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="tab-pane fade" id="pills-rent" role="tabpanel">
+                <form action="{{ url_for('properties') }}" method="GET">
+                  <input type="hidden" name="type" value="rent">
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <select class="form-select" id="location" name="location" required>
+                        <option value="">Select Location</option>
+                        <option>Adyar</option>
+                        <option>Anna Nagar</option>
+                        <option>Ashok Nagar</option>
+                        <option>Besant Nagar</option>
+                        <option>Chromepet</option>
+                        <option>Egmore</option>
+                        <option>Guindy</option>
+                        <option>Kodambakkam</option>
+                        <option>Medavakkam</option>
+                        <option>Mylapore</option>
+                        <option>Nungambakkam</option>
+                        <option>Pallavaram</option>
+                        <option>Perambur</option>
+                        <option>Porur</option>
+                        <option>Sholinganallur</option>
+                        <option>T. Nagar</option>
+                        <option>Tambaram</option>
+                        <option>Thiruvanmiyur</option>
+                        <option>Vadapalani</option>
+                        <option>Velachery</option>
+                      </select>                    </div>
+                    <div class="col-md-6">
+                      <select class="form-select" name="property_type">
+                        <option value="">Property Type</option>
+                        <option>House</option>
+                        <option>Apartment</option>
+                        <option>Villa</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <select class="form-select" name="bedrooms">
+                        <option value="">Bedrooms</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3+</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <select class="form-select" name="price_range">
+                        <option value="">Price Range</option>
+                        <option>Under ₹20K</option>
+                        <option>₹20K - ₹50K</option>
+                        <option>₹50K - ₹1L</option>
+                        <option>Above ₹1L</option>
+                      </select>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary w-100">Search Properties</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Properties -->
+  <section class="py-5 my-5">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-8">
+          <h2 class="section-title">Featured Properties</h2>
+          <p>Explore our handpicked selection of premium properties</p>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <a href="{{ url_for('properties') }}" class="btn btn-outline-primary">View All Properties</a>
+        </div>
+      </div>
+      <div class="row">
+        {% for property in properties %}
+        <div class="col-md-6 col-lg-4">
+          <div class="property-card">
+            <img src="{{ url_for('static', filename=property[13]) }}" class="img-fluid property-img" alt="{{ property[1] }}">
+            <span class="property-badge">For {{ 'Rent' if property[12] == 'rent' else 'Sale' }}</span>
+            <div class="p-4">
+              <h5>{{ property[1] }}</h5>
+              <p class="text-muted mb-3">{{ property[3] }}, Chennai</p>
+              <p class="property-price">₹{{ "{:,.2f}".format(property[11]) }}{% if property[12] == 'rent' %}/mo{% endif %}</p>
+              <div class="property-features mt-3">
+                <span><i class="fas fa-bed"></i> {{ property[6] }} Beds</span>
+                <span><i class="fas fa-bath"></i> {{ property[7] }} Baths</span>
+                <span><i class="fas fa-vector-square"></i> {{ property[5] }} sq.ft</span>
+              </div>
+              <a href="{{ url_for('property_detail', property_id=property[0]) }}" class="btn btn-outline-primary w-100 mt-3">View Details</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- Price Prediction CTA -->
+  <section class="prediction-cta">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mb-4">Not Sure About Property Prices?</h2>
+          <p class="lead mb-5">Our AI-powered price prediction tool helps you estimate property values with accuracy based on current market trends and comparable properties.</p>
+          {% if g.user %}
+            <a href="{{ url_for('price_prediction') }}" class="btn btn-primary btn-lg px-5">Try Price Prediction Tool</a>
+          {% else %}
+            <a href="{{ url_for('login') }}" class="btn btn-primary btn-lg px-5">
+              <i class="fas fa-lock me-2"></i>Login to Use Price Prediction
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-5 my-5 bg-light">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="section-title">What Our Clients Say</h2>
+          <p>Hear from our satisfied customers</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="d-flex align-items-center mb-4">
+              <img src="https://randomuser.me/api/portraits/women/32.jpg" class="testimonial-img me-3" alt="Client">
+              <div>
+                <h5 class="mb-0">Priya Sharma</h5>
+                <p class="text-muted mb-0">Home Buyer</p>
+              </div>
+            </div>
+            <p>"Found my dream home through RealEstatePro. Their price prediction tool helped me negotiate a fair deal. Highly recommended!"</p>
+            <div class="text-warning">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="d-flex align-items-center mb-4">
+              <img src="https://randomuser.me/api/portraits/men/45.jpg" class="testimonial-img me-3" alt="Client">
+              <div>
+                <h5 class="mb-0">Rahul Mehta</h5>
+                <p class="text-muted mb-0">Investor</p>
+              </div>
+            </div>
+            <p>"The market insights and price predictions helped me make informed investment decisions. Great service and accurate valuations."</p>
+            <div class="text-warning">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="d-flex align-items-center mb-4">
+              <img src="https://randomuser.me/api/portraits/women/68.jpg" class="testimonial-img me-3" alt="Client">
+              <div>
+                <h5 class="mb-0">Ananya Patel</h5>
+                <p class="text-muted mb-0">First-time Buyer</p>
+              </div>
+            </div>
+            <p>"As a first-time buyer, I was nervous about pricing. The prediction tool gave me confidence in my purchase. Thank you!"</p>
+            <div class="text-warning">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

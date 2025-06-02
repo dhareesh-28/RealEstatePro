@@ -1,0 +1,143 @@
+{% extends "base.html" %}
+
+{% block title %}Price Prediction | PrimeProperties{% endblock %}
+
+{% block content %}
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2 class="mb-4">How Our Price Prediction Works</h2>
+        <p class="lead">Our AI-powered algorithm analyzes thousands of property transactions in Chennai to provide accurate price estimates based on:</p>
+        
+        <div class="row mt-5">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0">
+              <div class="card-body">
+                <img src="https://cdn-icons-png.flaticon.com/512/2942/2942789.png" alt="Location" style="width: 80px; height: 80px;" class="mb-3">
+                <h5>Location</h5>
+                <p class="text-muted">Property values vary significantly by neighborhood</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0">
+              <div class="card-body">
+                <img src="https://cdn-icons-png.flaticon.com/512/2942/2942717.png" alt="Features" style="width: 80px; height: 80px;" class="mb-3">
+                <h5>Property Features</h5>
+                <p class="text-muted">Size, bedrooms, bathrooms, and amenities</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0">
+              <div class="card-body">
+                <img src="https://cdn-icons-png.flaticon.com/512/2942/2942729.png" alt="Market" style="width: 80px; height: 80px;" class="mb-3">
+                <h5>Market Trends</h5>
+                <p class="text-muted">Current demand and recent sales in the area</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card shadow">
+          <div class="card-body p-5">
+            <h2 class="text-center mb-4">Property Price Prediction</h2>
+            <p class="text-center mb-5">Fill in the details below to get an estimated price for your property</p>
+
+            <form method="POST" action="{{ url_for('price_prediction') }}">
+              <div class="mb-3">
+                <label for="prediction_type" class="form-label">Prediction Type</label>
+                <select class="form-select" id="prediction_type" name="prediction_type" required>
+                  <option value="">Select</option>
+                  <option value="sell" {% if prediction_type == 'sell' %}selected{% endif %}>Sell Price</option>
+                  <option value="rent" {% if prediction_type == 'rent' %}selected{% endif %}>Rent Price</option>
+                </select>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="location" class="form-label">Location</label>
+                  <select class="form-select" id="location" name="location" required>
+                    <option value="">Select Location</option>
+                    {% for loc in ['Adyar','Anna Nagar','Ashok Nagar','Besant Nagar','Chromepet','Egmore','Guindy','Kodambakkam','Medavakkam','Mylapore','Nungambakkam','Pallavaram','Perambur','Porur','Sholinganallur','T. Nagar','Tambaram','Thiruvanmiyur','Vadapalani','Velachery'] %}
+                    <option value="{{ loc }}" {% if request.form.location == loc %}selected{% endif %}>{{ loc }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="property_type" class="form-label">Property Type</label>
+                  <select class="form-select" id="property_type" name="property_type" required>
+                    <option value="">Select Type</option>
+                    {% for ptype in ['House', 'Apartment', 'Villa'] %}
+                    <option value="{{ ptype }}" {% if request.form.property_type == ptype %}selected{% endif %}>{{ ptype }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="sq_ft" class="form-label">Area (sq.ft)</label>
+                  <input type="number" class="form-control" id="sq_ft" name="sq_ft" value="{{ request.form.sq_ft or '' }}" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="condition" class="form-label">Condition</label>
+                  <select class="form-select" id="condition" name="condition" required>
+                    <option value="">Select Condition</option>
+                    {% for c in ['New', 'Old', 'Renovated'] %}
+                    <option value="{{ c }}" {% if request.form.condition == c %}selected{% endif %}>{{ c }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <label for="bedrooms" class="form-label">Bedrooms</label>
+                  <input type="number" class="form-control" id="bedrooms" name="bedrooms" value="{{ request.form.bedrooms or '' }}" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="bathrooms" class="form-label">Bathrooms</label>
+                  <input type="number" class="form-control" id="bathrooms" name="bathrooms" value="{{ request.form.bathrooms or '' }}" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="parking_spaces" class="form-label">Parking Spaces</label>
+                  <input type="number" class="form-control" id="parking_spaces" name="parking_spaces" value="{{ request.form.parking_spaces or '' }}" required>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label for="year_built" class="form-label">Year Built</label>
+                <input type="number" class="form-control" id="year_built" name="year_built" value="{{ request.form.year_built or '' }}" required>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100">Predict Price</button>
+            </form>
+
+            {% if predicted_price %}
+            <div class="alert alert-success mt-4">
+              <h4 class="alert-heading">
+                {% if prediction_type == 'sell' %}Predicted Selling Price{% elif prediction_type == 'rent' %}Predicted Monthly Rent{% endif %}
+              </h4>
+              <p class="mb-0">The estimated value is: <strong>₹{{ "{:,.2f}".format(predicted_price) }}</strong></p>
+            </div>
+            {% endif %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

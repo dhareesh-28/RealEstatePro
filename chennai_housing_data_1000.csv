@@ -1,0 +1,1001 @@
+location,property_type,sq_ft,bedrooms,bathrooms,year_built,parking_spaces,condition,price
+Velachery,House,1542,3,3,2014,3,New,8858000
+Thiruvanmiyur,Villa,2407,5,4,2004,2,Renovated,19246000
+Besant Nagar,Apartment,1615,4,4,2002,0,New,7366000
+Thiruvanmiyur,Apartment,755,1,1,2012,3,Old,4536000
+Tambaram,Apartment,925,1,1,2015,2,New,4381000
+Kodambakkam,Apartment,1747,2,1,2007,1,New,12113000
+Adyar,Apartment,1770,2,1,2019,2,Renovated,14857000
+Ashok Nagar,Apartment,1477,1,1,2009,3,Old,9431000
+Besant Nagar,Villa,3744,4,4,2016,1,New,25631000
+T. Nagar,Apartment,1573,1,1,2002,0,Renovated,8092000
+Medavakkam,Apartment,1349,2,1,2021,2,New,11355000
+Kodambakkam,Villa,2159,1,1,2009,3,Old,16820000
+Thiruvanmiyur,Apartment,1353,2,2,2024,3,New,5922000
+Perambur,Apartment,1760,2,2,2004,0,Old,7970000
+Tambaram,Villa,3993,4,3,2000,0,Old,29852000
+Medavakkam,Apartment,1320,3,2,2002,0,Old,10732000
+Kodambakkam,Apartment,1579,1,1,2005,1,Old,11627000
+Perambur,Apartment,1671,1,1,2004,0,New,11847000
+Tambaram,House,1089,1,1,2020,2,Renovated,4691000
+Kodambakkam,Villa,3105,5,5,2013,0,New,20381000
+Chromepet,House,1716,2,1,2017,1,New,13583000
+Egmore,Villa,2280,2,2,2024,1,Old,14562000
+Velachery,House,2257,5,4,2023,2,Renovated,10599000
+Vadapalani,House,1094,2,1,2017,2,Renovated,4705000
+Nungambakkam,Apartment,1783,1,1,2002,1,New,7804000
+Anna Nagar,House,1146,2,1,2014,0,Old,8476000
+Perambur,Villa,3190,5,5,2015,2,Renovated,20956000
+Medavakkam,Apartment,881,2,1,2020,1,Renovated,3951000
+Perambur,Apartment,890,2,1,2001,2,New,7975000
+T. Nagar,Villa,3953,2,1,2021,3,New,33826000
+Ashok Nagar,Apartment,1651,3,3,2021,3,New,8568000
+Anna Nagar,Apartment,1676,1,1,2024,3,New,12975000
+T. Nagar,Apartment,1513,2,1,2022,3,Renovated,13435000
+T. Nagar,Apartment,1600,4,3,2007,2,New,13234000
+Mylapore,Apartment,1737,2,1,2020,3,Renovated,14311000
+Perambur,Apartment,1549,3,3,2007,0,Old,11392000
+Anna Nagar,Apartment,1465,1,1,2021,1,New,10991000
+Porur,Apartment,907,1,1,2020,1,Renovated,7890000
+Besant Nagar,Apartment,1337,2,1,2019,1,New,7172000
+Egmore,Apartment,1146,1,1,2014,2,Old,6494000
+Adyar,Apartment,1112,1,1,2019,2,New,7699000
+T. Nagar,House,1411,1,1,2004,1,New,11902000
+Thiruvanmiyur,Apartment,1150,1,1,2004,2,New,5436000
+Thiruvanmiyur,Villa,2793,5,4,2021,2,Renovated,24893000
+Vadapalani,Apartment,1386,3,2,2001,1,New,8155000
+Ashok Nagar,Apartment,1587,2,2,2001,3,New,10358000
+Mylapore,Villa,2900,1,1,2021,1,New,25826000
+Pallavaram,Apartment,1460,3,2,2024,1,New,7823000
+T. Nagar,House,1990,3,3,2013,0,Renovated,11446000
+Velachery,Apartment,1297,2,2,2009,1,Old,10830000
+Vadapalani,Villa,3766,5,4,2004,2,New,31043000
+Sholinganallur,Villa,3885,2,1,2022,2,New,21868000
+Thiruvanmiyur,Apartment,1129,1,1,2007,0,New,8143000
+Nungambakkam,House,1328,1,1,2018,1,Renovated,5744000
+Kodambakkam,Apartment,848,2,2,2006,3,Renovated,5256000
+Adyar,Apartment,846,2,2,2006,2,New,4356000
+Tambaram,Villa,3261,2,1,2000,1,New,21187000
+Velachery,Apartment,1275,2,1,2013,0,Old,7442000
+Vadapalani,Apartment,1077,2,1,2020,2,New,8329000
+Nungambakkam,House,2123,1,1,2021,2,Renovated,16635000
+Perambur,Villa,2862,2,2,2012,1,Renovated,23643000
+T. Nagar,Apartment,1251,1,1,2008,0,Old,5757000
+Egmore,Apartment,761,1,1,2021,3,New,3956000
+Ashok Nagar,Apartment,1731,1,1,2005,1,New,13044000
+Tambaram,Apartment,1217,3,3,2006,2,Renovated,6181000
+Tambaram,Villa,2057,2,2,2003,3,New,13510000
+Thiruvanmiyur,Apartment,828,2,1,2010,0,Renovated,7190000
+Anna Nagar,Apartment,1525,1,1,2009,0,New,10624000
+Besant Nagar,Apartment,633,1,1,2008,3,New,3297000
+Pallavaram,Villa,3273,2,1,2023,0,Renovated,25933000
+Nungambakkam,Apartment,788,1,1,2024,3,Renovated,7209000
+Velachery,Apartment,802,2,2,2004,3,New,3951000
+Adyar,Apartment,1265,2,2,2019,0,Renovated,7711000
+Thiruvanmiyur,Apartment,1704,2,2,2018,1,New,8317000
+Vadapalani,House,1573,2,1,2002,2,New,7565000
+Tambaram,Villa,3737,2,1,2007,0,Old,31019000
+Anna Nagar,Apartment,1432,3,2,2019,3,Renovated,8532000
+Nungambakkam,Villa,2940,2,2,2005,3,New,13650000
+Adyar,Apartment,1487,1,1,2023,1,Old,11704000
+Tambaram,Villa,3562,3,3,2021,3,New,23845000
+Nungambakkam,Apartment,1136,1,1,2010,3,Renovated,6671000
+Egmore,House,2291,2,2,2014,2,Old,15108000
+Ashok Nagar,Apartment,1550,2,2,2001,2,New,13442000
+Chromepet,Apartment,1452,2,1,2015,3,Renovated,7509000
+Kodambakkam,Apartment,1603,4,3,2001,3,New,7596000
+Medavakkam,House,1306,3,2,2021,0,Old,7570000
+Chromepet,Villa,2578,5,4,2006,0,Renovated,13414000
+Pallavaram,House,1047,1,1,2012,1,New,7949000
+Ashok Nagar,Apartment,1522,1,1,2005,0,Renovated,8642000
+Pallavaram,Apartment,1645,4,4,2009,0,Renovated,7015000
+T. Nagar,Apartment,705,1,1,2009,2,Old,5016000
+Adyar,Apartment,1729,3,3,2020,3,New,11006000
+Medavakkam,House,2217,2,2,2008,1,New,19058000
+Pallavaram,Villa,2121,4,3,2004,3,New,10539000
+Medavakkam,Apartment,1114,1,1,2002,0,New,4821000
+Porur,House,911,2,2,2014,0,Old,5120000
+Chromepet,Villa,3069,3,3,2013,2,New,23322000
+Egmore,House,2497,1,1,2024,0,New,14765000
+Anna Nagar,Apartment,1250,2,1,2010,3,Old,11146000
+Chromepet,Apartment,1342,2,2,2002,2,New,8288000
+Thiruvanmiyur,Apartment,675,1,1,2019,2,New,5565000
+T. Nagar,Apartment,866,2,1,2017,3,New,6417000
+Sholinganallur,Apartment,1007,2,2,2023,0,New,8602000
+Velachery,Apartment,979,2,2,2011,1,New,4706000
+Velachery,Apartment,700,1,1,2005,0,Old,5728000
+Tambaram,Apartment,821,2,1,2005,2,Renovated,6811000
+Anna Nagar,Apartment,1594,2,1,2022,3,Renovated,11990000
+Mylapore,Villa,2580,5,5,2011,0,Renovated,23413000
+Ashok Nagar,House,1407,1,1,2002,1,New,7273000
+Mylapore,Apartment,990,2,1,2020,1,New,7733000
+Porur,Apartment,1694,2,1,2023,2,Renovated,14461000
+Thiruvanmiyur,Apartment,1087,1,1,2021,0,Renovated,7277000
+Sholinganallur,Apartment,1144,2,2,2020,3,New,7973000
+Sholinganallur,House,2263,4,3,2005,2,New,18273000
+Sholinganallur,Apartment,1151,1,1,2005,1,Old,8498000
+Pallavaram,House,2410,2,1,2023,3,New,12153000
+Sholinganallur,Apartment,1023,2,2,2004,1,Renovated,5490000
+Porur,Apartment,1396,1,1,2018,3,New,8611000
+Guindy,Apartment,1528,2,2,2024,3,New,6534000
+Chromepet,Apartment,903,1,1,2022,1,New,5981000
+Ashok Nagar,House,1785,4,3,2001,1,New,15859000
+Guindy,Apartment,1593,2,2,2005,1,Renovated,12433000
+Sholinganallur,Apartment,824,1,1,2013,1,Renovated,5629000
+Pallavaram,Villa,3738,3,3,2015,0,Renovated,31425000
+Anna Nagar,House,1995,1,1,2005,0,Old,10474000
+T. Nagar,Apartment,1099,2,1,2014,3,New,6038000
+Medavakkam,House,1899,3,2,2020,2,Old,9959000
+Kodambakkam,Villa,2656,4,4,2004,0,Renovated,12417000
+Pallavaram,Apartment,1718,2,2,2005,0,Renovated,14624000
+Besant Nagar,Apartment,1505,2,2,2012,3,Renovated,10092000
+Perambur,Apartment,1019,1,1,2017,3,New,7860000
+Tambaram,Villa,2850,1,1,2014,1,Renovated,19133000
+Egmore,House,2400,1,1,2007,2,New,19680000
+Perambur,Villa,3789,3,3,2000,2,Renovated,25744000
+Besant Nagar,Villa,2930,5,5,2010,2,Renovated,12787000
+Nungambakkam,Apartment,1212,1,1,2022,3,New,5263000
+Thiruvanmiyur,Apartment,1164,1,1,2011,1,New,10240000
+T. Nagar,Villa,2460,5,5,2000,0,New,11950000
+Besant Nagar,Apartment,1119,1,1,2003,3,New,9678000
+Guindy,Villa,2118,3,3,2018,2,Renovated,18065000
+Porur,House,2184,2,2,2011,2,New,13756000
+Anna Nagar,Villa,1893,2,1,2010,2,New,8374000
+Thiruvanmiyur,Villa,3390,5,4,2009,1,New,17889000
+Kodambakkam,Villa,2447,5,5,2018,3,New,19388000
+Chromepet,House,1418,2,1,2000,1,New,9758000
+Tambaram,Apartment,1054,2,1,2015,0,Old,8261000
+Sholinganallur,Apartment,683,1,1,2002,3,Renovated,4077000
+Nungambakkam,Apartment,706,1,1,2018,2,New,6422000
+Egmore,Apartment,1549,3,2,2018,3,New,9981000
+Sholinganallur,Apartment,872,2,1,2011,0,New,5396000
+Ashok Nagar,Apartment,1341,1,1,2000,3,Old,5774000
+Guindy,Apartment,991,2,1,2021,1,New,6687000
+Sholinganallur,Apartment,615,1,1,2007,1,New,2634000
+Nungambakkam,Villa,1879,4,4,2024,1,Renovated,15669000
+Sholinganallur,Apartment,605,1,1,2012,3,Renovated,4185000
+Kodambakkam,House,1836,3,2,2010,0,Old,14753000
+Kodambakkam,Villa,2838,3,2,2016,2,New,23263000
+Kodambakkam,Apartment,617,1,1,2002,1,Renovated,4012000
+Medavakkam,Villa,3888,5,5,2018,2,New,30331000
+Guindy,Apartment,1452,3,2,2010,3,Renovated,12584000
+Vadapalani,Apartment,1696,2,2,2008,1,Renovated,11584000
+Sholinganallur,Apartment,1413,2,1,2008,0,New,6990000
+Egmore,Villa,3911,5,5,2014,3,Renovated,30022000
+Perambur,Apartment,1063,2,2,2018,2,New,7530000
+Besant Nagar,House,1769,1,1,2000,0,New,7618000
+Sholinganallur,House,2116,1,1,2024,2,New,15070000
+Besant Nagar,Apartment,1545,1,1,2011,0,New,9114000
+Anna Nagar,Apartment,1127,1,1,2010,2,Renovated,7967000
+Vadapalani,Apartment,1613,4,4,2024,1,New,11013000
+Egmore,Villa,2640,5,5,2001,0,Renovated,19307000
+Vadapalani,Villa,2305,5,5,2001,3,Renovated,17377000
+Guindy,Apartment,1159,2,2,2024,0,Renovated,5711000
+Perambur,Apartment,1002,2,1,2010,1,New,7437000
+Porur,House,1449,1,1,2001,2,New,6355000
+Adyar,Villa,2692,1,1,2002,2,Renovated,13034000
+Anna Nagar,Apartment,781,1,1,2004,3,Old,3955000
+Guindy,Apartment,1337,3,3,2011,1,Old,8969000
+Nungambakkam,Apartment,723,1,1,2003,1,Renovated,3647000
+T. Nagar,Apartment,871,2,1,2016,3,New,8018000
+Besant Nagar,House,1258,2,2,2009,1,Old,6433000
+Guindy,Villa,2564,4,4,2015,1,Old,13684000
+Medavakkam,House,1969,1,1,2010,2,Renovated,9882000
+Pallavaram,Villa,1925,1,1,2013,0,New,7859000
+Perambur,Villa,3329,5,5,2014,1,New,29179000
+Anna Nagar,Apartment,1413,1,1,2018,0,New,9231000
+Medavakkam,Apartment,1152,2,1,2014,0,New,7677000
+Ashok Nagar,Villa,3693,2,2,2013,2,Renovated,24707000
+Tambaram,Apartment,635,1,1,2005,3,New,4951000
+Tambaram,Apartment,1138,1,1,2007,0,New,9801000
+T. Nagar,Apartment,1590,3,3,2023,1,New,11608000
+Sholinganallur,Apartment,1541,3,3,2016,3,Renovated,9230000
+Adyar,Apartment,1225,3,2,2000,3,New,10195000
+Medavakkam,House,1803,2,2,2014,3,Renovated,14629000
+Medavakkam,Apartment,1558,3,2,2014,0,New,12076000
+Ashok Nagar,Apartment,1698,1,1,2013,1,New,12747000
+Velachery,Apartment,837,2,1,2017,1,New,7167000
+Pallavaram,Apartment,838,2,1,2013,2,New,6194000
+Vadapalani,Apartment,1768,1,1,2021,0,New,8017000
+Sholinganallur,House,1134,2,2,2002,0,New,8853000
+Kodambakkam,Apartment,1767,1,1,2020,3,Renovated,9693000
+Perambur,Apartment,1733,2,2,2021,0,Renovated,14675000
+Medavakkam,House,2481,1,1,2001,3,New,16668000
+Kodambakkam,Apartment,870,2,2,2012,0,Old,5477000
+Mylapore,House,2344,5,5,2023,0,New,12856000
+Adyar,Apartment,1617,4,3,2024,3,New,8474000
+Sholinganallur,Villa,3236,5,5,2018,3,Old,29003000
+Egmore,Apartment,1644,1,1,2024,2,Renovated,10416000
+Mylapore,Apartment,925,2,1,2007,3,New,7258000
+Medavakkam,Apartment,719,1,1,2003,2,Old,4804000
+Chromepet,Apartment,1083,1,1,2024,2,New,5575000
+Mylapore,Villa,2401,3,3,2024,3,Old,14490000
+Mylapore,Villa,3863,5,5,2006,2,Renovated,32070000
+Tambaram,Apartment,855,2,1,2002,2,New,7503000
+Kodambakkam,Apartment,1582,2,1,2023,3,Renovated,14069000
+Anna Nagar,Villa,3508,4,3,2002,0,Old,25049000
+Medavakkam,Apartment,818,1,1,2017,3,New,7010000
+Pallavaram,Villa,3684,4,3,2004,2,Old,24779000
+Besant Nagar,Apartment,1269,3,2,2004,3,Old,8942000
+Anna Nagar,Apartment,646,1,1,2022,0,New,4282000
+T. Nagar,Apartment,1316,2,1,2000,3,Old,5583000
+Mylapore,Apartment,721,1,1,2010,1,New,4068000
+T. Nagar,House,1184,2,1,2021,0,Renovated,6612000
+Nungambakkam,Apartment,1196,1,1,2002,3,New,5558000
+Porur,Apartment,1716,3,3,2012,3,New,11087000
+Besant Nagar,Apartment,1119,2,2,2006,3,Renovated,10360000
+Velachery,Apartment,1692,1,1,2023,0,Renovated,7999000
+Chromepet,Apartment,1766,3,2,2010,0,Renovated,13924000
+Besant Nagar,Apartment,1138,1,1,2018,0,New,5129000
+Besant Nagar,Apartment,880,1,1,2010,0,New,5310000
+Thiruvanmiyur,Villa,3062,2,2,2012,2,Renovated,16446000
+Tambaram,Apartment,1077,2,2,2018,0,Renovated,5889000
+Egmore,House,2416,2,2,2022,1,New,17928000
+Chromepet,Villa,2474,1,1,2008,2,Old,13308000
+Mylapore,Apartment,653,1,1,2021,0,New,5128000
+Adyar,Apartment,736,1,1,2022,0,New,3658000
+Guindy,Apartment,707,1,1,2024,3,Renovated,4281000
+Tambaram,Villa,2272,2,1,2011,3,New,17878000
+Porur,Apartment,714,1,1,2022,0,New,4293000
+Medavakkam,Villa,2807,2,1,2005,3,Renovated,18322000
+Guindy,House,2089,2,2,2021,3,New,17985000
+Velachery,Villa,3970,5,5,2004,3,New,35249000
+Guindy,Villa,2379,3,2,2022,2,Old,15549000
+Perambur,Apartment,1593,2,2,2005,0,New,10129000
+Ashok Nagar,Villa,1933,4,4,2007,0,New,15051000
+Guindy,House,1922,2,2,2003,0,New,13239000
+Nungambakkam,Apartment,1237,3,2,2001,1,Old,6850000
+T. Nagar,Villa,2292,1,1,2008,0,Renovated,16600000
+Porur,Apartment,829,1,1,2023,0,New,5619000
+Anna Nagar,Apartment,607,1,1,2008,0,New,2632000
+Tambaram,House,1579,1,1,2001,3,New,6930000
+Perambur,Villa,3799,2,1,2024,3,New,20621000
+Medavakkam,Villa,3922,4,3,2019,0,Renovated,16192000
+Velachery,Apartment,1474,1,1,2013,3,New,6387000
+Velachery,Apartment,1020,2,1,2003,0,Renovated,5948000
+Adyar,Apartment,1798,4,3,2007,3,New,15158000
+Egmore,Apartment,1019,1,1,2019,3,New,5435000
+Tambaram,Apartment,1349,3,3,2017,1,Renovated,10959000
+Adyar,House,1375,1,1,2013,1,Renovated,10449000
+Thiruvanmiyur,Villa,1924,4,3,2006,1,Old,10838000
+Guindy,Apartment,953,2,2,2023,2,Old,5746000
+Besant Nagar,Apartment,1645,2,2,2016,3,New,9221000
+Ashok Nagar,Apartment,1270,1,1,2011,2,New,7609000
+Anna Nagar,Apartment,954,1,1,2004,1,Old,5774000
+Guindy,Apartment,1016,1,1,2008,0,Old,4677000
+T. Nagar,Villa,2914,1,1,2011,2,New,19690000
+Velachery,Apartment,728,1,1,2015,0,New,3216000
+Thiruvanmiyur,Villa,3886,2,1,2014,3,Renovated,34429000
+Pallavaram,Villa,3041,5,4,2005,3,Renovated,17979000
+Adyar,Apartment,1712,3,3,2011,1,Old,7560000
+Pallavaram,Apartment,762,1,1,2017,0,Old,5822000
+Vadapalani,Apartment,642,1,1,2005,1,New,3337000
+Sholinganallur,Apartment,1414,3,3,2021,1,Old,10614000
+Velachery,Apartment,1794,3,3,2014,0,Old,11397000
+Mylapore,Apartment,1048,1,1,2006,3,Old,6871000
+Vadapalani,Apartment,1707,1,1,2011,3,New,7656000
+Anna Nagar,Apartment,823,1,1,2013,3,Old,5145000
+Vadapalani,House,2176,5,5,2000,2,Old,11831000
+Thiruvanmiyur,Apartment,1008,2,2,2015,1,Old,5023000
+Thiruvanmiyur,Apartment,1383,1,1,2005,1,New,7145000
+Perambur,Apartment,920,2,2,2016,3,New,5944000
+Pallavaram,Villa,2348,4,3,2022,2,New,20128000
+Pallavaram,House,1434,3,2,2000,3,Renovated,11314000
+Besant Nagar,Villa,2127,5,4,2005,2,Renovated,14467000
+Adyar,Villa,3342,2,1,2007,3,New,17635000
+Guindy,Apartment,1333,2,2,2021,1,Renovated,11525000
+Porur,Apartment,1291,1,1,2012,1,New,9773000
+Porur,Villa,2471,5,4,2019,3,Old,11665000
+Anna Nagar,Apartment,1520,1,1,2021,2,Old,6636000
+Porur,Apartment,1016,2,2,2001,2,New,5046000
+Tambaram,Villa,2901,1,1,2009,0,Old,15521000
+Pallavaram,Apartment,1387,2,2,2024,0,Old,11660000
+Perambur,Apartment,671,1,1,2008,1,Renovated,4774000
+Besant Nagar,Apartment,1653,3,2,2018,0,New,7144000
+Kodambakkam,Villa,3254,2,2,2022,3,New,17700000
+Thiruvanmiyur,Apartment,1306,1,1,2001,2,New,10168000
+Adyar,House,1580,2,2,2007,0,Renovated,11868000
+Sholinganallur,Villa,2550,5,5,2007,2,New,20705000
+Anna Nagar,Apartment,1040,2,1,2015,3,Renovated,7499000
+Guindy,Villa,3597,5,4,2023,2,New,32520000
+Kodambakkam,House,2225,5,4,2010,0,Old,14758000
+Velachery,Apartment,825,1,1,2022,3,Renovated,5977000
+Perambur,Villa,2070,4,4,2012,3,New,10090000
+T. Nagar,Apartment,1680,3,3,2010,2,New,11415000
+Porur,House,1025,2,2,2002,0,New,8825000
+Chromepet,Villa,3886,4,3,2007,0,Old,35129000
+Kodambakkam,Apartment,1162,2,2,2019,0,Renovated,6765000
+T. Nagar,Apartment,1757,3,2,2016,0,New,9582000
+Velachery,Apartment,1090,1,1,2000,0,Old,8544000
+Guindy,House,1730,1,1,2010,2,New,13185000
+Velachery,Apartment,1274,1,1,2012,2,Renovated,7673000
+Sholinganallur,Villa,2566,4,4,2016,0,Renovated,19668000
+Ashok Nagar,Villa,3091,5,4,2010,1,Renovated,12987000
+Porur,Apartment,1431,3,3,2000,1,Old,10495000
+Pallavaram,Villa,1914,3,3,2022,3,New,16994000
+Ashok Nagar,House,1623,1,1,2012,2,New,8852000
+Vadapalani,Apartment,1132,1,1,2012,0,New,10243000
+Porur,Apartment,712,1,1,2006,3,New,4215000
+Thiruvanmiyur,Apartment,1021,2,1,2004,2,New,5341000
+Pallavaram,Apartment,1327,2,1,2002,2,New,6772000
+Porur,Apartment,952,1,1,2006,3,Renovated,8648000
+Vadapalani,Apartment,1150,1,1,2021,2,New,9253000
+T. Nagar,House,1065,1,1,2011,1,New,9002000
+Pallavaram,House,1822,4,3,2015,0,New,14452000
+Mylapore,Apartment,1222,2,2,2005,0,Renovated,7541000
+Chromepet,Villa,2061,3,2,2014,3,Renovated,14302000
+Guindy,Apartment,1561,3,3,2018,0,New,13446000
+Guindy,Apartment,1148,2,1,2003,0,New,8358000
+Adyar,Apartment,1592,1,1,2019,2,Renovated,7395000
+Pallavaram,Apartment,1363,1,1,2022,2,New,7071000
+Ashok Nagar,Apartment,1744,4,4,2016,1,Old,9545000
+Chromepet,Apartment,1047,1,1,2013,3,New,5701000
+Nungambakkam,Apartment,720,1,1,2019,1,Old,4281000
+Vadapalani,Villa,3371,4,4,2010,1,New,21945000
+Kodambakkam,Apartment,1158,1,1,2016,1,New,7114000
+Chromepet,Apartment,1273,3,2,2020,1,Renovated,8822000
+Thiruvanmiyur,Apartment,687,1,1,2020,0,Old,3973000
+Mylapore,Apartment,1579,3,3,2019,3,New,6766000
+Egmore,Apartment,1416,3,2,2010,3,Renovated,7658000
+T. Nagar,Villa,2084,4,4,2022,3,Renovated,14582000
+Anna Nagar,Apartment,1550,1,1,2023,0,New,10277000
+Chromepet,House,2449,5,5,2003,3,New,17299000
+Besant Nagar,Apartment,1511,2,1,2022,2,Renovated,12937000
+Velachery,Apartment,823,2,2,2001,1,New,7154000
+Medavakkam,House,1465,3,3,2005,0,New,6661000
+Anna Nagar,Villa,2990,5,5,2007,2,New,13757000
+Pallavaram,Villa,3857,4,4,2018,1,New,20269000
+Mylapore,Apartment,1044,1,1,2015,3,New,6967000
+T. Nagar,Apartment,1701,3,2,2012,2,New,11716000
+Chromepet,Apartment,1018,2,1,2013,3,New,7563000
+Thiruvanmiyur,Apartment,643,1,1,2012,0,New,2837000
+Porur,Apartment,1225,1,1,2020,2,New,6448000
+Egmore,House,1574,1,1,2017,0,Old,10905000
+T. Nagar,Apartment,625,1,1,2022,3,Old,4978000
+Mylapore,Apartment,1095,1,1,2021,1,Renovated,8980000
+Besant Nagar,House,1617,2,2,2015,3,New,11701000
+Guindy,Apartment,1606,4,4,2020,3,Renovated,14582000
+Medavakkam,Apartment,1427,3,2,2009,3,Old,7044000
+Egmore,Villa,2262,2,1,2010,0,New,11592000
+Perambur,House,1753,3,2,2007,0,Renovated,8290000
+Porur,Apartment,1098,2,1,2009,3,Renovated,9926000
+Ashok Nagar,Apartment,1342,3,3,2020,1,Old,8129000
+Perambur,Apartment,838,2,1,2020,2,Renovated,5543000
+Velachery,House,1970,1,1,2019,1,Renovated,11167000
+Vadapalani,Apartment,1501,3,3,2004,0,New,7731000
+Vadapalani,Apartment,1086,2,2,2010,0,New,8969000
+Chromepet,Villa,3784,5,4,2008,3,New,16274000
+Guindy,Apartment,1693,3,3,2010,1,Renovated,13929000
+Kodambakkam,Apartment,673,1,1,2002,0,Old,3628000
+Sholinganallur,Apartment,1394,2,2,2008,1,Renovated,8654000
+Vadapalani,Apartment,1067,2,1,2009,3,Old,8442000
+Perambur,Apartment,664,1,1,2002,3,New,4418000
+Vadapalani,Villa,3022,1,1,2010,2,New,26689000
+Adyar,Apartment,1585,3,2,2018,2,New,14163000
+Mylapore,Apartment,979,2,1,2007,0,New,8798000
+Guindy,Apartment,1157,2,1,2022,3,New,6510000
+Porur,Apartment,1662,4,4,2021,1,Renovated,13118000
+Perambur,Apartment,1353,1,1,2023,3,Renovated,6258000
+Sholinganallur,Villa,3722,4,3,2015,2,New,20179000
+Velachery,Villa,2102,4,3,2003,1,Old,15294000
+Nungambakkam,Villa,2869,2,2,2020,2,New,22676000
+Guindy,Apartment,1572,1,1,2018,2,Renovated,7344000
+Mylapore,Apartment,1385,2,1,2016,3,New,11270000
+Adyar,Apartment,1757,1,1,2022,0,New,9979000
+Medavakkam,House,1746,1,1,2002,2,New,15043000
+Vadapalani,Apartment,1777,3,2,2017,0,Renovated,11095000
+Nungambakkam,Apartment,1668,3,2,2021,1,New,11706000
+Kodambakkam,Apartment,1698,2,2,2004,0,New,13761000
+Adyar,Apartment,1720,1,1,2014,1,New,13268000
+Anna Nagar,Apartment,650,1,1,2021,0,Renovated,5830000
+T. Nagar,Apartment,891,1,1,2009,1,Old,5155000
+Besant Nagar,Apartment,1063,2,2,2009,2,New,7623000
+Mylapore,Apartment,1472,3,2,2014,0,Old,8958000
+Kodambakkam,House,1160,1,1,2011,0,Renovated,6798000
+Velachery,Apartment,1146,2,1,2023,2,New,9863000
+Anna Nagar,Apartment,778,1,1,2019,2,Old,6128000
+T. Nagar,Apartment,1382,1,1,2007,2,Renovated,6013000
+Guindy,Apartment,1133,1,1,2005,0,New,8127000
+Sholinganallur,Apartment,1298,1,1,2000,2,Renovated,6513000
+Nungambakkam,Apartment,1307,2,2,2009,0,New,10385000
+Vadapalani,Apartment,916,1,1,2019,1,Renovated,4583000
+Vadapalani,Apartment,1228,2,1,2012,1,New,10240000
+Guindy,Apartment,1768,3,3,2015,3,New,10618000
+Thiruvanmiyur,House,1504,3,3,2012,0,Old,7336000
+Ashok Nagar,Villa,2420,4,3,2019,0,Renovated,14450000
+Nungambakkam,Apartment,1699,3,3,2009,1,New,10597000
+Medavakkam,Apartment,1135,1,1,2004,3,Old,9218000
+Anna Nagar,Apartment,1215,3,2,2011,1,New,6810000
+Porur,Apartment,842,1,1,2009,2,Old,6691000
+T. Nagar,House,1214,2,1,2017,3,Renovated,11029000
+Egmore,Villa,2149,2,1,2010,2,Renovated,18004000
+Kodambakkam,House,993,1,1,2021,0,Renovated,5164000
+Adyar,Apartment,1155,1,1,2000,3,Old,5046000
+Porur,Apartment,1793,3,3,2006,3,Renovated,12185000
+Medavakkam,Apartment,1434,2,2,2024,0,New,12029000
+Besant Nagar,House,1010,1,1,2018,3,New,6678000
+Chromepet,Apartment,600,1,1,2004,2,New,2723000
+Perambur,Villa,1838,3,2,2016,0,New,10683000
+Chromepet,Apartment,1110,1,1,2002,1,Old,7802000
+Chromepet,House,1001,1,1,2020,1,Old,4740000
+Besant Nagar,Apartment,1730,1,1,2003,1,Renovated,13841000
+Perambur,Villa,3048,4,4,2024,1,Old,14094000
+Besant Nagar,House,1720,2,1,2007,1,Renovated,7854000
+Medavakkam,Apartment,805,2,2,2013,3,New,7217000
+Perambur,Apartment,1795,1,1,2023,2,Renovated,8619000
+Chromepet,Apartment,1570,3,2,2006,2,Old,13807000
+T. Nagar,Apartment,838,1,1,2001,3,Old,3589000
+Sholinganallur,Apartment,924,1,1,2020,3,Renovated,6362000
+Medavakkam,House,2348,4,3,2020,1,New,19094000
+Kodambakkam,Villa,3345,1,1,2024,1,Renovated,24863000
+Velachery,Apartment,1553,2,1,2016,1,New,14101000
+Porur,Apartment,1642,2,1,2002,0,New,14511000
+Tambaram,Apartment,1188,2,1,2021,1,Old,5984000
+Mylapore,Apartment,1366,2,2,2014,0,Renovated,8623000
+Adyar,Villa,3814,1,1,2021,0,Renovated,29807000
+Vadapalani,Apartment,1196,2,2,2016,0,New,6946000
+Nungambakkam,Apartment,1276,1,1,2016,0,New,9602000
+Velachery,Apartment,952,2,2,2001,2,Renovated,7809000
+Medavakkam,House,1307,1,1,2023,0,Renovated,10172000
+T. Nagar,Villa,2108,4,3,2014,1,New,17048000
+Perambur,House,1761,1,1,2019,3,New,15271000
+Vadapalani,Apartment,997,1,1,2021,1,New,5743000
+Velachery,Apartment,1451,2,1,2003,3,Renovated,8964000
+Adyar,Apartment,1790,3,2,2010,2,Old,16255000
+Sholinganallur,House,1289,3,3,2024,2,New,9246000
+Porur,House,1956,1,1,2007,3,Renovated,9418000
+Vadapalani,Villa,1998,3,3,2012,1,New,12975000
+Thiruvanmiyur,Apartment,1209,3,3,2022,3,New,6627000
+Kodambakkam,House,1527,3,2,2017,3,New,11616000
+Ashok Nagar,House,2331,3,3,2012,3,New,12013000
+T. Nagar,Villa,3575,1,1,2002,0,Old,26303000
+Perambur,Villa,3158,3,3,2014,1,Old,28288000
+Vadapalani,Apartment,1432,3,2,2012,3,New,9398000
+Pallavaram,Apartment,737,1,1,2002,3,Renovated,5093000
+Velachery,House,1932,1,1,2024,3,New,12657000
+Perambur,Villa,2663,2,1,2017,3,Renovated,12638000
+Pallavaram,Apartment,852,2,2,2007,2,Old,7058000
+Kodambakkam,Villa,3110,1,1,2013,2,Renovated,21303000
+Egmore,Villa,2157,3,2,2007,3,Renovated,10758000
+Anna Nagar,Apartment,1673,3,3,2021,0,New,8883000
+Kodambakkam,Apartment,1795,1,1,2016,2,Renovated,8919000
+T. Nagar,Villa,3480,4,4,2010,2,Old,31153000
+Pallavaram,Villa,1891,4,3,2001,1,New,13636000
+Velachery,House,1433,2,2,2009,1,New,9550000
+Porur,Apartment,1551,2,2,2022,2,Old,8369000
+Nungambakkam,House,2216,1,1,2015,0,New,17737000
+Besant Nagar,Apartment,1449,3,3,2007,1,New,12820000
+Thiruvanmiyur,House,1746,3,2,2002,2,Renovated,13492000
+Besant Nagar,Villa,3008,5,4,2005,3,New,24088000
+Adyar,Villa,2104,4,3,2001,1,New,17323000
+Chromepet,House,1161,1,1,2010,0,New,6513000
+Guindy,Villa,1836,2,1,2014,1,New,8329000
+Mylapore,Apartment,1252,3,2,2005,3,New,11056000
+Ashok Nagar,Villa,2692,5,4,2022,2,Renovated,14164000
+T. Nagar,Apartment,712,1,1,2014,0,Renovated,5517000
+Adyar,Apartment,625,1,1,2000,1,Renovated,2826000
+Adyar,Apartment,1262,2,1,2010,1,Old,6635000
+Tambaram,Apartment,702,1,1,2000,3,New,4054000
+Mylapore,Apartment,617,1,1,2021,2,Old,2545000
+Anna Nagar,Apartment,1791,3,3,2001,3,New,15287000
+T. Nagar,Apartment,1101,1,1,2023,0,New,9746000
+Tambaram,Apartment,965,1,1,2008,3,Old,8362000
+Anna Nagar,Villa,2909,4,4,2001,1,Renovated,25446000
+Porur,Villa,3782,4,3,2022,2,Renovated,27683000
+Mylapore,Villa,1913,3,3,2021,3,New,8457000
+Adyar,Apartment,736,1,1,2016,3,New,4948000
+Anna Nagar,Apartment,1306,3,3,2022,1,New,5732000
+Velachery,Apartment,1311,2,2,2011,1,New,8341000
+Sholinganallur,Apartment,1375,3,2,2000,1,Renovated,6376000
+Guindy,Apartment,1385,2,2,2007,1,New,6454000
+Chromepet,Apartment,1297,2,2,2024,1,New,10115000
+Ashok Nagar,Apartment,690,1,1,2017,3,New,6212000
+Guindy,Villa,1983,2,2,2002,3,New,12253000
+Besant Nagar,Apartment,704,1,1,2001,2,Old,3491000
+Tambaram,Apartment,741,1,1,2005,0,New,5069000
+Thiruvanmiyur,Apartment,830,2,2,2020,2,Renovated,6683000
+T. Nagar,Apartment,828,1,1,2005,2,New,5094000
+Vadapalani,Villa,3843,1,1,2003,1,Renovated,20284000
+Anna Nagar,Apartment,1341,1,1,2015,1,Renovated,10935000
+Chromepet,Apartment,1216,1,1,2014,1,New,9759000
+Mylapore,Villa,3463,1,1,2005,3,Renovated,23553000
+Tambaram,Villa,2954,1,1,2008,1,Renovated,16769000
+Nungambakkam,Apartment,1299,2,1,2007,2,Old,8840000
+Velachery,Apartment,1337,3,2,2007,2,Renovated,10317000
+Besant Nagar,Apartment,1667,1,1,2009,1,Renovated,13024000
+Velachery,Apartment,1320,3,3,2012,0,New,10899000
+Sholinganallur,Apartment,906,2,1,2017,3,New,7182000
+Tambaram,Villa,2531,4,3,2014,0,Renovated,12367000
+Medavakkam,Villa,2920,4,3,2012,1,Renovated,15165000
+Nungambakkam,Apartment,1715,4,4,2011,2,New,13303000
+Mylapore,Apartment,1475,1,1,2006,0,New,7049000
+Tambaram,Apartment,767,1,1,2019,0,New,4667000
+Medavakkam,Apartment,1188,1,1,2004,0,Renovated,8717000
+Thiruvanmiyur,Apartment,1583,2,1,2003,1,New,8358000
+Ashok Nagar,Villa,2260,4,3,2021,3,New,16471000
+Chromepet,Apartment,1036,1,1,2013,2,Renovated,8818000
+Chromepet,Apartment,1513,1,1,2021,2,New,10413000
+Chromepet,Apartment,1164,1,1,2000,1,New,8102000
+T. Nagar,Apartment,1131,2,2,2017,0,New,9430000
+Porur,Apartment,607,1,1,2002,1,Old,3637000
+Besant Nagar,Apartment,1438,1,1,2018,1,Renovated,8979000
+Tambaram,Villa,3058,4,4,2012,1,New,13187000
+Porur,Apartment,1608,1,1,2011,1,New,13691000
+Perambur,Villa,1891,4,3,2019,1,New,9462000
+T. Nagar,Villa,3313,2,1,2002,3,Renovated,28901000
+Anna Nagar,Villa,3814,5,5,2016,0,New,27334000
+Perambur,Apartment,1289,3,3,2011,3,New,8860000
+T. Nagar,House,933,1,1,2009,0,Renovated,8573000
+Egmore,Apartment,702,1,1,2023,3,Old,5590000
+Besant Nagar,Apartment,707,1,1,2016,0,New,4772000
+Ashok Nagar,Apartment,1241,1,1,2020,0,Renovated,10657000
+Perambur,Villa,3460,1,1,2021,3,Old,19165000
+Thiruvanmiyur,Apartment,1282,3,2,2007,2,New,10360000
+Nungambakkam,Apartment,1697,4,4,2012,0,Renovated,12778000
+Ashok Nagar,Apartment,699,1,1,2020,3,New,3039000
+Chromepet,Apartment,1672,4,3,2012,3,Old,8697000
+T. Nagar,Apartment,1422,2,2,2014,0,Old,12585000
+Vadapalani,Apartment,1551,1,1,2003,1,Renovated,6824000
+Velachery,Apartment,1334,1,1,2006,0,Old,10726000
+Anna Nagar,Villa,3327,1,1,2020,3,Renovated,22062000
+Egmore,Apartment,1337,1,1,2012,2,New,11023000
+Ashok Nagar,Apartment,1588,2,1,2005,1,New,12703000
+Anna Nagar,Apartment,1352,1,1,2023,2,Renovated,11325000
+Nungambakkam,Apartment,829,2,2,2016,3,Old,4984000
+Adyar,Villa,1824,2,2,2017,2,Renovated,11080000
+Besant Nagar,Apartment,1758,1,1,2017,1,Renovated,8099000
+Anna Nagar,Apartment,1115,1,1,2016,3,New,9064000
+Adyar,Apartment,1790,3,2,2008,0,Renovated,11972000
+Nungambakkam,Apartment,1317,3,2,2023,3,Old,7496000
+Vadapalani,Villa,2609,1,1,2010,0,New,17020000
+Porur,Apartment,1675,1,1,2008,0,New,9880000
+Chromepet,Apartment,1786,4,3,2005,0,New,9972000
+Mylapore,House,1667,3,2,2010,2,Renovated,8967000
+Guindy,Apartment,1076,1,1,2018,1,New,6489000
+Perambur,Apartment,1497,1,1,2007,2,New,13199000
+Medavakkam,Apartment,719,1,1,2015,0,Renovated,3914000
+Mylapore,Villa,2693,5,4,2019,2,New,21359000
+Ashok Nagar,Apartment,1502,3,2,2013,0,New,7341000
+Guindy,Apartment,1569,1,1,2006,3,Renovated,8427000
+Porur,Villa,2437,5,4,2021,3,Renovated,18461000
+Perambur,Villa,2782,3,3,2007,2,Renovated,18925000
+Mylapore,Apartment,766,1,1,2006,1,New,4364000
+Pallavaram,Villa,2915,4,3,2001,1,New,16194000
+Pallavaram,Apartment,1173,1,1,2010,2,New,9417000
+Besant Nagar,Villa,2746,4,4,2019,3,Renovated,23324000
+Thiruvanmiyur,Apartment,1567,1,1,2008,2,New,12435000
+Nungambakkam,Apartment,1244,3,3,2001,2,Renovated,6632000
+Pallavaram,Apartment,820,2,1,2023,1,New,3646000
+Thiruvanmiyur,Apartment,1689,3,3,2004,0,Renovated,10256000
+Sholinganallur,Villa,2634,5,5,2003,0,New,12055000
+Adyar,Apartment,1732,4,3,2013,2,Renovated,8032000
+Thiruvanmiyur,House,2299,2,1,2010,3,Renovated,10307000
+Pallavaram,House,1575,3,2,2011,2,Renovated,14371000
+Velachery,Villa,1950,3,2,2005,0,Renovated,15393000
+Perambur,House,1454,3,2,2016,0,New,6715000
+Vadapalani,House,1235,1,1,2016,1,New,9544000
+Egmore,Villa,2398,4,3,2015,3,Renovated,15577000
+Kodambakkam,Villa,2945,5,5,2011,1,Old,21430000
+Chromepet,Villa,2905,2,2,2006,2,New,20239000
+Medavakkam,House,1191,2,1,2004,1,New,9929000
+Adyar,Apartment,1673,2,1,2016,2,New,10929000
+Chromepet,Villa,3224,1,1,2001,1,Old,14187000
+T. Nagar,Apartment,647,1,1,2024,0,Old,3592000
+Thiruvanmiyur,Apartment,1146,2,2,2002,0,New,9727000
+Ashok Nagar,Villa,3679,1,1,2013,0,Old,17505000
+T. Nagar,Villa,3499,5,4,2002,0,Renovated,19186000
+Adyar,Apartment,1440,3,3,2002,1,New,11001000
+Tambaram,Apartment,1529,2,2,2008,1,Old,7376000
+Porur,Villa,2609,4,4,2021,1,Renovated,13715000
+Chromepet,Villa,3332,5,5,2002,0,New,23514000
+Adyar,Apartment,738,1,1,2005,3,New,4344000
+Pallavaram,Villa,1970,1,1,2005,2,New,16904000
+Guindy,Villa,2413,1,1,2005,2,New,17071000
+Porur,House,2404,2,1,2001,3,Renovated,21082000
+Tambaram,Villa,3223,1,1,2016,3,New,23239000
+Medavakkam,Villa,3791,3,2,2005,0,New,23415000
+Thiruvanmiyur,Villa,3513,3,2,2000,0,New,23206000
+Velachery,Apartment,1745,4,3,2019,0,Old,13807000
+Anna Nagar,Apartment,1474,1,1,2015,0,New,10343000
+Velachery,Apartment,1525,2,2,2002,2,New,9603000
+Anna Nagar,Apartment,1024,1,1,2019,0,New,7713000
+Porur,Apartment,1451,1,1,2021,0,New,9507000
+Thiruvanmiyur,Apartment,1164,1,1,2022,2,Old,8183000
+Tambaram,Villa,3149,1,1,2002,1,Renovated,27448000
+Anna Nagar,Apartment,1591,1,1,2003,1,New,12438000
+Anna Nagar,Apartment,956,1,1,2011,0,Old,5973000
+Velachery,Villa,2776,4,4,2016,1,New,21821000
+Mylapore,Apartment,875,1,1,2012,3,New,3983000
+Besant Nagar,House,1385,1,1,2010,2,Renovated,6786000
+Chromepet,Villa,2554,1,1,2016,1,Old,17765000
+Thiruvanmiyur,Villa,3924,1,1,2012,0,Old,20235000
+Kodambakkam,House,2090,1,1,2000,0,New,14944000
+Adyar,House,1610,4,3,2022,2,Renovated,12056000
+Ashok Nagar,Villa,2381,5,5,2013,2,Old,13700000
+Anna Nagar,Apartment,933,2,1,2011,3,Renovated,5933000
+Thiruvanmiyur,Apartment,844,2,2,2002,3,Renovated,6089000
+Besant Nagar,Apartment,604,1,1,2009,0,Old,5448000
+Sholinganallur,Villa,2229,5,5,2008,0,New,10711000
+Besant Nagar,House,2205,4,4,2024,2,New,17288000
+Pallavaram,House,1464,1,1,2006,0,Renovated,10241000
+Besant Nagar,Apartment,989,1,1,2007,1,Renovated,7919000
+Perambur,Apartment,1050,2,2,2013,1,New,6487000
+T. Nagar,House,1607,2,2,2010,1,Old,14382000
+Mylapore,Apartment,1105,1,1,2000,1,Renovated,7966000
+Nungambakkam,Villa,2534,4,4,2000,1,New,15486000
+Guindy,Apartment,1777,2,2,2019,0,Renovated,9678000
+Thiruvanmiyur,Apartment,1563,3,2,2009,1,New,13780000
+Porur,Villa,3273,5,4,2019,2,New,13574000
+Velachery,Apartment,740,1,1,2011,2,New,4306000
+Nungambakkam,Apartment,932,1,1,2010,1,Renovated,4573000
+Pallavaram,House,1237,2,2,2018,2,Old,9184000
+Thiruvanmiyur,Villa,3337,1,1,2024,0,New,17806000
+Nungambakkam,Villa,2615,5,4,2009,2,New,17499000
+Nungambakkam,Apartment,617,1,1,2007,0,Old,3519000
+T. Nagar,House,2148,3,2,2002,3,Old,18592000
+Adyar,Apartment,1476,2,1,2021,1,New,8659000
+Medavakkam,Apartment,716,1,1,2006,2,Old,4053000
+Perambur,Apartment,1086,2,2,2014,2,Old,7238000
+Thiruvanmiyur,Villa,2629,3,3,2012,1,Renovated,16031000
+Egmore,Apartment,1773,2,1,2008,3,New,12649000
+Velachery,Apartment,1211,2,1,2020,0,Old,8820000
+Sholinganallur,Apartment,1773,2,1,2009,0,Old,15308000
+T. Nagar,Apartment,1604,3,3,2023,1,Old,9366000
+Vadapalani,Apartment,1564,3,3,2007,3,New,10450000
+T. Nagar,Apartment,1404,1,1,2010,0,New,11108000
+Adyar,Villa,2304,4,3,2008,3,Old,16128000
+Anna Nagar,Apartment,1231,3,2,2008,2,New,10830000
+Mylapore,Apartment,1250,2,1,2001,0,New,9090000
+Mylapore,House,2443,5,4,2007,0,New,17156000
+Adyar,Apartment,1038,1,1,2023,3,New,6191000
+Ashok Nagar,Apartment,1248,3,2,2023,1,Renovated,10789000
+Adyar,House,2487,5,5,2005,0,Renovated,21453000
+Perambur,Apartment,1314,1,1,2011,3,Old,10849000
+Egmore,Apartment,1497,2,2,2009,3,Old,13356000
+Egmore,Apartment,758,1,1,2023,0,Renovated,5032000
+Perambur,Apartment,1274,2,2,2001,1,New,7670000
+Egmore,Apartment,638,1,1,2017,0,Renovated,3697000
+Chromepet,Apartment,1383,1,1,2019,3,New,12373000
+Nungambakkam,Villa,2106,1,1,2016,0,Old,14435000
+Mylapore,Apartment,956,1,1,2020,3,New,4802000
+Chromepet,Villa,3767,5,4,2019,3,New,15705000
+Porur,Apartment,618,1,1,2020,3,New,5109000
+Guindy,Apartment,634,1,1,2016,0,Old,4558000
+Ashok Nagar,House,1153,1,1,2008,2,Renovated,5950000
+Sholinganallur,Apartment,638,1,1,2023,1,Renovated,4464000
+Vadapalani,Villa,2909,5,5,2017,3,Renovated,23867000
+T. Nagar,Apartment,625,1,1,2005,1,Renovated,3378000
+Adyar,Villa,1987,3,3,2004,2,Old,11290000
+Vadapalani,Apartment,639,1,1,2003,0,Old,5158000
+Ashok Nagar,Apartment,1065,1,1,2023,2,New,6284000
+Egmore,Villa,3072,3,2,2011,3,New,23086000
+Mylapore,Apartment,1352,2,1,2012,3,New,11551000
+Besant Nagar,Apartment,748,1,1,2023,3,New,4316000
+Egmore,Villa,3594,3,2,2000,2,New,21296000
+Pallavaram,House,2291,3,3,2012,0,Old,20140000
+Anna Nagar,Villa,2119,3,2,2024,0,Old,14241000
+Tambaram,Apartment,1025,2,2,2010,2,New,5721000
+Nungambakkam,Villa,2893,5,4,2011,3,New,21083000
+Ashok Nagar,Villa,1953,1,1,2009,1,New,9472000
+Perambur,Villa,2149,3,3,2023,3,Old,17375000
+Velachery,Apartment,729,1,1,2008,3,Old,6293000
+Chromepet,Villa,3541,3,3,2024,0,New,27732000
+Egmore,Apartment,1736,3,3,2024,3,Renovated,13076000
+Egmore,House,1600,1,1,2010,2,New,14370000
+Nungambakkam,House,1644,4,3,2000,3,Renovated,7396000
+Kodambakkam,House,1074,2,2,2009,2,Renovated,5536000
+Nungambakkam,Apartment,1298,2,1,2010,0,Renovated,5805000
+Tambaram,House,996,2,2,2006,1,New,8341000
+Vadapalani,Apartment,1243,3,3,2020,3,Old,8223000
+Velachery,Villa,3594,3,3,2000,2,New,24924000
+Medavakkam,Apartment,1793,4,3,2024,2,Old,15867000
+Pallavaram,House,1495,3,2,2012,3,New,11435000
+Pallavaram,Apartment,736,1,1,2019,3,New,5344000
+Vadapalani,Apartment,1225,3,2,2014,3,Renovated,8247000
+Ashok Nagar,House,2310,3,2,2004,0,Renovated,14433000
+Vadapalani,Apartment,1191,2,2,2010,1,New,7421000
+Nungambakkam,Apartment,1125,2,2,2015,0,New,10081000
+Medavakkam,Apartment,968,1,1,2009,1,Old,6037000
+Porur,Villa,2263,1,1,2015,0,Renovated,19775000
+Sholinganallur,Apartment,1086,1,1,2019,3,New,6092000
+Pallavaram,Apartment,747,1,1,2021,2,New,4992000
+Pallavaram,Apartment,979,1,1,2006,0,New,4848000
+Tambaram,House,1835,1,1,2021,2,Renovated,16188000
+Medavakkam,Villa,3651,1,1,2007,1,New,23459000
+Mylapore,Apartment,1103,1,1,2002,3,New,9702000
+Adyar,Apartment,1198,2,2,2000,3,Renovated,9482000
+Guindy,Apartment,1137,2,2,2005,0,Old,7602000
+Chromepet,Apartment,1300,2,1,2022,3,Old,7121000
+Medavakkam,Villa,1977,3,2,2012,2,New,16327000
+Anna Nagar,Apartment,665,1,1,2020,0,Old,3658000
+Vadapalani,Apartment,1195,2,2,2000,2,New,8901000
+T. Nagar,Apartment,1150,2,1,2019,3,New,5492000
+Ashok Nagar,Apartment,1505,1,1,2015,1,New,7350000
+Pallavaram,Villa,3865,1,1,2015,1,Renovated,17422000
+Sholinganallur,Apartment,1046,1,1,2015,3,Old,4389000
+Pallavaram,Apartment,654,1,1,2012,2,Old,5091000
+Besant Nagar,Villa,2391,3,3,2016,1,New,10974000
+Medavakkam,Apartment,1343,1,1,2001,2,New,10801000
+Guindy,Apartment,1106,1,1,2001,2,Renovated,7100000
+Thiruvanmiyur,Apartment,609,1,1,2017,1,Old,3702000
+Nungambakkam,Apartment,607,1,1,2004,1,Renovated,4064000
+Nungambakkam,Apartment,800,2,2,2021,1,New,5346000
+Pallavaram,Villa,3869,5,4,2006,3,New,34392000
+Egmore,Apartment,1055,1,1,2004,0,Old,7771000
+Adyar,Apartment,1689,3,2,2000,1,Renovated,7456000
+Besant Nagar,Apartment,1514,2,2,2014,0,New,6478000
+Nungambakkam,Villa,3365,2,2,2016,1,New,22554000
+Egmore,Apartment,1643,3,2,2019,1,New,9943000
+Sholinganallur,Apartment,1707,1,1,2022,0,Old,8435000
+Besant Nagar,Apartment,704,1,1,2014,3,New,3878000
+Anna Nagar,Apartment,1525,1,1,2004,2,Old,11977000
+Perambur,Apartment,1682,1,1,2010,3,New,8241000
+Kodambakkam,Apartment,600,1,1,2016,3,New,5194000
+Pallavaram,Villa,3757,1,1,2005,0,Renovated,22286000
+Perambur,Apartment,1089,2,2,2021,3,New,5389000
+Egmore,House,2268,5,4,2008,2,Old,10673000
+Pallavaram,Villa,2308,1,1,2004,1,New,12035000
+Nungambakkam,Villa,2230,3,3,2023,2,New,13236000
+Adyar,Apartment,844,2,1,2013,2,Old,6188000
+Perambur,Apartment,720,1,1,2003,3,New,5366000
+Chromepet,House,1697,3,3,2018,1,Old,15366000
+Adyar,Apartment,1549,1,1,2023,3,New,12544000
+Guindy,Apartment,1540,2,1,2003,3,Renovated,11520000
+Chromepet,House,1412,2,2,2004,0,New,8693000
+Porur,Apartment,1598,1,1,2000,3,New,9297000
+T. Nagar,Apartment,1346,2,1,2024,3,Old,10480000
+Ashok Nagar,House,1197,1,1,2005,1,Renovated,8420000
+Nungambakkam,Villa,3141,2,1,2020,2,New,26382000
+Chromepet,Apartment,1664,1,1,2013,1,New,10981000
+Kodambakkam,Villa,2916,1,1,2004,1,Old,26274000
+Tambaram,Apartment,1198,2,1,2003,1,Renovated,5709000
+Chromepet,Villa,2958,2,1,2001,0,New,18881000
+Kodambakkam,Apartment,1387,2,2,2015,0,Old,11700000
+Velachery,House,2219,2,2,2010,0,Old,9390000
+Anna Nagar,Apartment,926,2,1,2000,0,New,5531000
+Ashok Nagar,Villa,3387,2,1,2003,2,New,22111000
+Nungambakkam,Villa,3296,4,3,2008,1,New,20304000
+Besant Nagar,Apartment,1330,1,1,2000,1,Renovated,11178000
+Kodambakkam,Apartment,1687,2,1,2013,1,New,11848000
+Pallavaram,House,2255,1,1,2003,2,New,15686000
+Perambur,Apartment,1416,3,3,2012,3,Old,10434000
+Velachery,Villa,3219,2,1,2021,1,New,20594000
+Pallavaram,Apartment,1662,3,3,2023,2,New,9017000
+Thiruvanmiyur,Apartment,1363,3,3,2024,3,New,6162000
+Adyar,Apartment,736,1,1,2001,3,New,4403000
+Perambur,Apartment,1729,2,2,2018,3,Renovated,9415000
+Sholinganallur,House,1646,3,2,2001,3,New,8047000
+Sholinganallur,Apartment,1341,3,3,2010,0,Renovated,7058000
+T. Nagar,Apartment,643,1,1,2001,2,New,3219000
+Porur,Apartment,1004,1,1,2019,1,New,6886000
+Velachery,Villa,3803,4,4,2021,1,New,26311000
+Anna Nagar,Apartment,642,1,1,2017,2,Renovated,2900000
+Anna Nagar,Apartment,822,1,1,2023,2,Renovated,4268000
+Chromepet,House,1988,4,4,2000,3,New,15407000
+Adyar,Apartment,1383,3,3,2002,1,New,6353000
+T. Nagar,Villa,3063,5,4,2005,3,Old,21331000
+Egmore,Villa,3575,3,2,2016,1,Renovated,20060000
+Velachery,Apartment,1222,1,1,2006,2,New,7993000
+Thiruvanmiyur,Apartment,713,1,1,2002,3,Old,5457000
+Adyar,Apartment,1280,1,1,2004,3,New,8168000
+Medavakkam,Villa,1916,3,3,2013,1,New,15318000
+Adyar,Villa,3167,3,3,2002,2,New,26965000
+Mylapore,Apartment,1149,1,1,2012,0,Renovated,8712000
+Mylapore,Apartment,1565,3,2,2009,1,New,9521000
+Besant Nagar,House,1998,3,3,2017,0,Old,8198000
+Nungambakkam,Apartment,830,2,2,2006,3,New,4470000
+Mylapore,Villa,2481,2,1,2000,2,New,13917000
+Porur,Apartment,1062,1,1,2018,3,Old,4821000
+Ashok Nagar,House,1368,1,1,2019,3,New,10726000
+Vadapalani,Apartment,974,2,1,2016,1,New,7601000
+Kodambakkam,Villa,2106,3,2,2018,1,Renovated,17498000
+Guindy,Apartment,1511,1,1,2014,0,New,11846000
+Velachery,Villa,2707,3,2,2003,0,Renovated,20721000
+Thiruvanmiyur,Villa,3061,1,1,2005,0,Old,23085000
+Mylapore,Apartment,1558,2,2,2013,2,New,11429000
+Vadapalani,Apartment,1300,2,2,2009,1,New,9662000
+Anna Nagar,Apartment,651,1,1,2017,3,Renovated,5618000
+Guindy,Apartment,777,1,1,2004,2,Old,3640000
+Kodambakkam,Apartment,1512,2,2,2011,0,Renovated,12846000
+Guindy,Apartment,1423,3,3,2020,1,New,6106000
+Egmore,House,1121,2,2,2015,2,Old,7237000
+Ashok Nagar,Apartment,1409,2,2,2021,3,New,9397000
+Besant Nagar,Apartment,876,1,1,2001,1,Old,7376000
+Tambaram,Apartment,1108,2,2,2024,0,Renovated,6160000
+Mylapore,Villa,3223,2,2,2010,2,New,14175000
+Sholinganallur,Apartment,966,2,1,2013,0,Renovated,7768000
+Besant Nagar,Villa,3540,5,5,2005,0,New,26978000
+Mylapore,Apartment,1144,1,1,2016,2,Renovated,8086000
+Vadapalani,Apartment,848,1,1,2012,3,Renovated,3856000
+Medavakkam,Apartment,1274,1,1,2014,0,Renovated,10943000
+T. Nagar,Apartment,1135,1,1,2013,3,Renovated,9267000
+Vadapalani,Apartment,1585,2,1,2017,3,New,6814000
+Egmore,Apartment,1333,3,2,2016,2,New,6892000
+Thiruvanmiyur,Apartment,1032,1,1,2023,3,Renovated,9397000
+Egmore,House,2185,5,4,2003,2,New,16588000
+Sholinganallur,Villa,3464,4,4,2011,1,Renovated,20936000
+Velachery,Apartment,855,1,1,2024,0,Renovated,6834000
+Chromepet,Apartment,1212,1,1,2005,1,New,8680000
+Velachery,House,1335,1,1,2000,1,Old,9842000
+Adyar,Apartment,622,1,1,2016,0,Old,3725000
+Vadapalani,Apartment,1220,3,2,2010,3,New,6497000
+Nungambakkam,Apartment,1237,2,1,2024,3,New,6081000
+Chromepet,Apartment,681,1,1,2000,3,New,3656000
+Velachery,House,1241,2,2,2016,0,New,6438000
+Egmore,Apartment,1017,1,1,2015,1,New,8705000
+Ashok Nagar,Apartment,1569,1,1,2017,2,New,9790000
+Porur,Apartment,1053,2,2,2008,3,Renovated,5390000
+Thiruvanmiyur,Apartment,968,1,1,2016,2,New,5322000
+T. Nagar,Apartment,1351,1,1,2022,1,New,10034000
+Sholinganallur,Villa,2180,1,1,2004,1,Old,13021000
+Thiruvanmiyur,Apartment,1454,1,1,2012,2,New,9846000
+Mylapore,Apartment,899,2,1,2004,2,Renovated,8316000
+Porur,Apartment,1149,1,1,2008,2,New,7647000
+Anna Nagar,Apartment,924,1,1,2009,0,Renovated,4209000
+Thiruvanmiyur,Apartment,750,1,1,2015,3,Old,6106000
+Mylapore,Villa,3717,5,5,2021,1,Renovated,29282000
+Adyar,Apartment,1478,2,2,2005,3,New,9326000
+Guindy,Apartment,1054,1,1,2014,1,Old,7953000
+Tambaram,Villa,3456,5,5,2004,0,New,24537000
+Velachery,House,1152,1,1,2000,2,New,6530000
+Chromepet,Villa,3018,1,1,2004,0,Renovated,12801000
+Porur,Apartment,1239,3,3,2016,2,Renovated,10236000
+Ashok Nagar,Apartment,779,1,1,2021,0,New,7036000
+Sholinganallur,House,2162,1,1,2015,2,Old,16142000
+Mylapore,Villa,3895,2,2,2015,3,Old,29484000
+Ashok Nagar,Villa,2480,4,4,2012,3,New,20778000
+Sholinganallur,Apartment,894,1,1,2006,2,New,7476000
+Tambaram,Villa,1903,1,1,2024,3,Renovated,8967000
+Guindy,House,2355,2,1,2008,2,Renovated,21065000
+Pallavaram,Villa,2252,5,5,2011,0,New,16038000
+Egmore,Villa,2479,5,5,2015,1,Old,15455000
+Porur,Apartment,1076,2,1,2004,1,Renovated,6993000
+Medavakkam,Apartment,1620,3,2,2008,0,Renovated,13118000
+Perambur,Villa,3688,1,1,2017,2,Old,19838000
+Kodambakkam,Apartment,930,2,2,2000,3,Old,6344000
+Sholinganallur,House,1005,2,2,2011,1,New,6945000
+Besant Nagar,Apartment,1165,1,1,2011,3,Renovated,10152000
+Kodambakkam,House,1853,3,2,2010,3,Renovated,15137000
+T. Nagar,Villa,3446,1,1,2022,0,Renovated,18123000
+Guindy,Villa,2437,1,1,2001,0,Renovated,15470000
+Perambur,Apartment,1252,1,1,2007,0,Renovated,7732000
+Nungambakkam,House,1298,3,2,2002,1,Renovated,9769000
+Ashok Nagar,Villa,2717,1,1,2011,3,Old,20617000
+Guindy,Apartment,1069,2,2,2008,1,New,8200000
+Nungambakkam,House,1941,4,3,2015,2,Renovated,12515000
+Porur,Villa,2054,5,4,2006,1,New,15222000
+Thiruvanmiyur,Apartment,1279,3,3,2012,3,Old,10354000
+Sholinganallur,House,2089,4,4,2016,0,Renovated,10447000
+Guindy,Apartment,1268,1,1,2020,1,New,5306000
+Besant Nagar,Villa,3560,3,2,2012,0,New,16924000
+T. Nagar,Apartment,1672,3,2,2011,2,Renovated,13887000
+Sholinganallur,House,2491,1,1,2019,0,Old,16608000
+Ashok Nagar,Villa,3154,3,2,2022,2,Old,14267000
+Velachery,Apartment,1311,3,3,2002,0,Renovated,8696000
+Porur,Apartment,1608,2,1,2023,2,Old,12687000
+Mylapore,Apartment,891,2,1,2023,3,Old,6960000
+Vadapalani,Apartment,1132,2,1,2004,3,Renovated,10275000
+Nungambakkam,Villa,2899,1,1,2007,2,Renovated,17130000
+Thiruvanmiyur,Villa,3087,4,4,2022,0,Renovated,24659000
+Perambur,House,2460,1,1,2015,1,New,17192000
+Medavakkam,Apartment,875,2,2,2013,3,Old,7657000
+Velachery,House,1638,4,3,2005,2,Renovated,13675000
+Guindy,House,1127,2,1,2015,0,Renovated,8921000
+Thiruvanmiyur,Villa,3432,4,4,2010,0,Old,24208000
+Adyar,Villa,3398,3,3,2000,0,Renovated,29495000
+Ashok Nagar,Apartment,1295,3,3,2020,0,New,6145000
+Perambur,House,1636,2,2,2010,2,Renovated,12388000
+Adyar,Apartment,1485,1,1,2018,3,New,9938000
+Sholinganallur,Apartment,741,1,1,2002,1,Renovated,6116000
+Velachery,Villa,1854,3,3,2002,1,New,13192000
+Adyar,Villa,3759,4,4,2013,0,New,30546000
+Egmore,Apartment,1477,2,2,2009,3,New,12903000
+T. Nagar,Villa,2436,3,3,2013,0,Renovated,19833000
+Velachery,Apartment,1451,1,1,2004,0,Renovated,6811000
+Tambaram,Apartment,1347,1,1,2012,2,New,5896000
+Ashok Nagar,House,1150,2,2,2007,1,New,5802000
+Mylapore,Apartment,1013,2,1,2000,2,Renovated,6673000
+Pallavaram,House,1696,1,1,2020,0,New,9657000
+Tambaram,Apartment,1498,1,1,2005,3,New,12648000
+Nungambakkam,Villa,3826,1,1,2018,1,New,33512000
+Tambaram,Apartment,1631,1,1,2013,3,Renovated,8530000
+T. Nagar,Apartment,1487,1,1,2006,0,Old,7423000
+Ashok Nagar,House,2144,1,1,2016,0,New,13435000
+Perambur,Apartment,1768,3,3,2011,3,Renovated,9364000
+Thiruvanmiyur,Apartment,1549,2,1,2004,1,New,11143000
+Adyar,House,2296,1,1,2009,3,Old,14279000
+Egmore,Apartment,768,1,1,2014,2,New,6259000
+Porur,Villa,2540,1,1,2005,1,New,17006000
+Egmore,Apartment,685,1,1,2016,1,Renovated,6036000
+Guindy,Villa,3146,3,3,2012,1,Renovated,21857000
+Ashok Nagar,House,2039,2,1,2007,3,Renovated,13305000
+Adyar,Villa,2212,3,2,2013,2,Old,18345000
+T. Nagar,House,1194,2,2,2000,1,New,10854000
+Sholinganallur,Villa,2710,3,2,2024,0,Old,24355000
+Guindy,Villa,3330,3,2,2020,1,Old,23070000
+Velachery,Apartment,1624,2,2,2001,3,New,13345000
+Mylapore,Villa,3272,1,1,2020,3,Old,17733000
+Kodambakkam,Apartment,865,2,1,2023,2,Renovated,3893000
+Thiruvanmiyur,Apartment,1383,1,1,2010,3,Renovated,5848000
+Porur,Apartment,1603,2,1,2007,1,Old,8644000
+Nungambakkam,Apartment,719,1,1,2019,1,New,6429000
+Thiruvanmiyur,House,1686,4,4,2017,0,New,14133000
+Tambaram,House,992,2,2,2023,2,New,4582000
+Pallavaram,Apartment,1357,2,2,2021,1,Renovated,11158000
+Guindy,Villa,2381,2,1,2000,0,New,12252000
+T. Nagar,Villa,3727,2,1,2004,2,New,33269000
+Chromepet,Apartment,1554,2,2,2020,0,New,8867000
+Pallavaram,House,1487,3,3,2024,0,New,7037000
+Egmore,Apartment,1392,1,1,2008,1,New,9279000
+Velachery,Apartment,1057,2,1,2020,3,Renovated,7954000
+Sholinganallur,Apartment,1154,2,2,2015,1,Renovated,9173000
+Anna Nagar,Apartment,729,1,1,2003,3,Renovated,5539000
+Porur,Apartment,1326,2,1,2008,0,New,8981000
+Porur,Villa,3402,2,1,2023,2,Old,25029000
+Nungambakkam,Apartment,825,2,1,2022,0,New,4939000
+Egmore,House,1869,3,3,2017,3,Old,12271000
+Pallavaram,Villa,2641,5,5,2020,2,New,20147000
+Thiruvanmiyur,Apartment,1791,4,3,2015,1,New,9392000
+Kodambakkam,House,1916,2,2,2005,0,Renovated,14059000
+Besant Nagar,Villa,3948,1,1,2011,0,New,33591000
+Pallavaram,Apartment,1299,1,1,2002,2,Old,7157000
+Chromepet,Apartment,898,1,1,2010,1,New,4066000
+Sholinganallur,Apartment,1050,1,1,2024,2,New,6648000
+Medavakkam,Apartment,1716,2,1,2014,0,New,15028000
+Vadapalani,House,1825,3,3,2016,2,New,8604000
+Tambaram,Apartment,1467,3,3,2016,3,Renovated,8190000
+Velachery,Apartment,1459,3,2,2015,2,Renovated,8329000
+Vadapalani,House,1684,3,3,2014,3,Old,15020000
+Kodambakkam,Apartment,1328,2,2,2021,3,Old,7904000
+Vadapalani,Apartment,1618,3,2,2001,2,Renovated,9948000
+Guindy,Apartment,1700,1,1,2003,2,New,9232000
+Thiruvanmiyur,Apartment,1530,3,2,2010,0,Old,6887000
+Anna Nagar,Villa,3437,3,2,2018,1,New,19872000
+Medavakkam,Apartment,1670,2,2,2009,0,Renovated,8590000
+Nungambakkam,Apartment,797,1,1,2024,1,Old,6450000
+Kodambakkam,Apartment,1418,3,2,2012,2,Renovated,6318000
+Nungambakkam,Apartment,1380,3,3,2015,0,Renovated,7843000
+Nungambakkam,Apartment,1540,2,2,2024,2,Renovated,11350000
+Velachery,Apartment,1346,3,3,2010,0,New,7464000
+Besant Nagar,House,2020,2,1,2013,2,New,11827000
+Thiruvanmiyur,Apartment,1195,1,1,2015,2,Renovated,10297000
+Perambur,Apartment,1281,1,1,2020,2,New,10519000
+Perambur,Apartment,1337,2,1,2011,0,Renovated,10193000
+Chromepet,Apartment,1286,1,1,2024,2,New,11589000
+Nungambakkam,House,1942,4,3,2003,3,New,15589000
+Egmore,Apartment,1698,2,1,2006,3,New,15168000
+Porur,Apartment,1690,2,2,2007,3,New,8898000
+Medavakkam,House,1739,4,4,2005,2,New,11797000
+Ashok Nagar,House,1893,2,2,2000,1,New,7843000
+Thiruvanmiyur,Apartment,672,1,1,2019,2,New,3006000
+Ashok Nagar,Villa,3869,4,4,2016,3,Old,28678000
+Perambur,Apartment,1797,4,3,2013,1,New,9142000
+Kodambakkam,Apartment,664,1,1,2009,0,New,3531000
+Sholinganallur,Apartment,1706,3,3,2002,3,Renovated,10559000
+Perambur,Villa,2384,3,3,2003,1,New,14860000
+Vadapalani,Villa,3803,2,1,2003,2,Renovated,30063000
+Porur,Apartment,1440,2,2,2024,1,Renovated,10219000
+Perambur,Apartment,973,1,1,2018,1,Old,5249000
+Nungambakkam,Apartment,1554,1,1,2013,0,New,13309000
+Mylapore,Apartment,757,1,1,2006,3,New,3643000
+Medavakkam,Villa,1849,1,1,2003,1,Old,16613000
+Egmore,Apartment,1072,2,2,2006,1,New,6094000
+Guindy,Apartment,1325,1,1,2017,3,New,8356000
+Mylapore,House,2319,2,2,2008,1,Old,15990000
+Guindy,Apartment,1327,2,1,2013,3,New,8869000
+Thiruvanmiyur,Apartment,1362,3,3,2013,3,Old,6295000
+Velachery,Apartment,1468,2,1,2022,0,Renovated,8488000
+Kodambakkam,Apartment,1529,3,2,2002,1,New,13873000
+Chromepet,Apartment,1327,1,1,2017,0,Renovated,11138000
+Thiruvanmiyur,House,1088,2,2,2001,0,Renovated,9078000
+Medavakkam,Apartment,1754,3,2,2008,1,New,10393000
+Vadapalani,Apartment,1087,1,1,2017,2,New,7213000
+T. Nagar,Apartment,718,1,1,2020,0,Old,4942000
+Perambur,Apartment,1303,3,2,2018,3,Renovated,6498000
+Tambaram,House,1922,4,3,2024,3,Renovated,11453000
+Vadapalani,Apartment,1535,1,1,2008,0,Renovated,12785000
+Medavakkam,Apartment,752,1,1,2003,0,New,4096000
+Porur,Apartment,783,1,1,2019,2,New,6892000
+Vadapalani,Apartment,1186,1,1,2003,0,New,10333000
+Chromepet,Villa,1896,3,3,2003,2,Renovated,17330000
+Porur,Apartment,1131,1,1,2024,0,New,5796000
