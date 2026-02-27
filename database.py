@@ -1,8 +1,13 @@
 import sqlite3
 from flask import g
 from datetime import datetime
+import os
 
-DATABASE = 'real_estate.db'
+# Use a persistent path on Azure (/home), otherwise local directory
+if 'WEBSITE_SITE_NAME' in os.environ:
+    DATABASE = '/home/real_estate.db'
+else:
+    DATABASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'real_estate.db')
 
 def get_db():
     db = getattr(g, '_database', None)
