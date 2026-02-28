@@ -5,3 +5,4 @@ pandas==1.5.3
 joblib==1.2.0
 python-dotenv==1.0.0
 gunicorn==21.2.0
+numpy<2.0.0
